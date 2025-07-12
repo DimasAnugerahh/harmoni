@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('sidebar');
+});
+
+Route::get('/icon', function () {
+    return view('icon');
+});
+
+Route::get('/tables', function () {
+    return view('tables');
 });
