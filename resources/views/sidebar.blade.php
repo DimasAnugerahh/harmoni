@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,7 +36,8 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+                        <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false"
+                            aria-controls="ui-basic">
                             <i class="icon-layout menu-icon"></i>
                             <span class="menu-title">DATA CID</span>
                             <i class="menu-arrow"></i>
@@ -43,7 +45,8 @@
                         <div class="collapse" id="ui-basic">
                             <ul class="nav flex-column sub-menu">
                                 <li class="nav-item"> <a class="nav-link" href="{{route('view_cid_rka')}}">RKA</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Input
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="../../pages/ui-features/dropdowns.html">Input
                                         Realisasi</a></li>
                                 <li class="nav-item"> <a class="nav-link"
                                         href="../../pages/ui-features/typography.html">Typography</a></li>
@@ -51,15 +54,18 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#non-cid" aria-expanded="false" aria-controls="non-cid">
+                        <a class="nav-link" data-toggle="collapse" href="#non-cid" aria-expanded="false"
+                            aria-controls="non-cid">
                             <i class="icon-layout menu-icon"></i>
                             <span class="menu-title">NON CID</span>
                             <i class="menu-arrow"></i>
                         </a>
                         <div class="collapse" id="non-cid">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="{{route('view_non_cid_rka')}}">RKA</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Input
+                                <li class="nav-item"> <a class="nav-link" href="{{route('view_non_cid_rka')}}">RKA</a>
+                                </li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="../../pages/ui-features/dropdowns.html">Input
                                         Realisasi</a>
                                 </li>
                                 <li class="nav-item"> <a class="nav-link"
@@ -67,17 +73,20 @@
                             </ul>
                         </div>
                     </li>
-            
+
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#PMUK" aria-expanded="false" aria-controls="PMUK">
+                        <a class="nav-link" data-toggle="collapse" href="#PMUK" aria-expanded="false"
+                            aria-controls="PMUK">
                             <i class="icon-layout menu-icon"></i>
                             <span class="menu-title">PUMK</span>
                             <i class="menu-arrow"></i>
                         </a>
                         <div class="collapse" id="PMUK">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/buttons.html">RKA</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Input
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="../../pages/ui-features/buttons.html">RKA</a></li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="../../pages/ui-features/dropdowns.html">Input
                                         Realisasi</a>
                                 </li>
                                 <li class="nav-item"> <a class="nav-link"
@@ -85,7 +94,7 @@
                             </ul>
                         </div>
                     </li>
-            
+
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="collapse" href="#social-mapping" aria-expanded="false"
                             aria-controls="social-mapping">
@@ -95,8 +104,9 @@
                         </a>
                         <div class="collapse" id="social-mapping">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="">RKA</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Input
+                                <li class="nav-item"> <a class="nav-link" href="{{route("view_social_mapping_rka")}}">RKA</a></li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="../../pages/ui-features/dropdowns.html">Input
                                         Realisasi</a>
                                 </li>
                                 <li class="nav-item"> <a class="nav-link"
@@ -104,17 +114,20 @@
                             </ul>
                         </div>
                     </li>
-            
+
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#setting" aria-expanded="false" aria-controls="setting">
+                        <a class="nav-link" data-toggle="collapse" href="#setting" aria-expanded="false"
+                            aria-controls="setting">
                             <i class="icon-layout menu-icon"></i>
                             <span class="menu-title">Setting</span>
                             <i class="menu-arrow"></i>
                         </a>
                         <div class="collapse" id="setting">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/buttons.html">RKA</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Input
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="../../pages/ui-features/buttons.html">RKA</a></li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="../../pages/ui-features/dropdowns.html">Input
                                         Realisasi</a>
                                 </li>
                                 <li class="nav-item"> <a class="nav-link"
@@ -134,8 +147,10 @@
                         </a>
                         <div class="collapse" id="my-account">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/buttons.html">RKA</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Input
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="../../pages/ui-features/buttons.html">RKA</a></li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="../../pages/ui-features/dropdowns.html">Input
                                         Realisasi</a>
                                 </li>
                                 <li class="nav-item"> <a class="nav-link"
@@ -158,7 +173,7 @@
                             <span class="menu-title">Help</span>
                         </a>
                     </li>
-            
+
             </nav>
             {{-- <div class="content-wrapper">
                 @yield('content')
@@ -171,4 +186,5 @@
         <script src="{{ asset('js/template.js') }}"></script>
         <script src="{{ asset('js/todolist.js') }}"></script>
     </body>
+
 </html>

@@ -33,3 +33,8 @@ Route::get('/non-cid/rka', function () {
     return view('data_non_cid.rka');
     // return view('tables');
 })->name('view_non_cid_rka');
+
+Route::get('/social-mapping/rka', function () {
+    return view('social_mapping.rka');
+    // return view('tables');
+})->name('view_social_mapping_rka');
