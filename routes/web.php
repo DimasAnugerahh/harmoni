@@ -24,3 +24,12 @@ Route::get('/icon', function () {
 Route::get('/tables', function () {
     return view('tables');
 });
+
+Route::get('/cid/rka', function () {
+    return view('data_cid.rka');
+})->name('view_cid_rka');
+
+Route::get('/non-cid/rka', function () {
+    return view('data_non_cid.rka');
+    // return view('tables');
+})->name('view_non_cid_rka');

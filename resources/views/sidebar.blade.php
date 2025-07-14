@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,11 +22,10 @@
         {{-- <link rel="stylesheet" href="{{asset('css/vertical-layout-light/style.css')}}"> --}}
         <!-- endinject -->
         <link rel="shortcut icon" href="{{asset('images/favicon.png')}}" />
-
     </head>
 
     <body>
-        <div class=" container-scroller">
+        <div class="container-scroller">
             <nav class="sidebar sidebar-offcanvas" id="sidebar">
                 <ul class="nav">
                     <li class="nav-item">
@@ -37,123 +35,134 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false"
-                            aria-controls="ui-basic">
+                        <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
                             <i class="icon-layout menu-icon"></i>
-                            <span class="menu-title">UI Elements</span>
+                            <span class="menu-title">DATA CID</span>
                             <i class="menu-arrow"></i>
                         </a>
                         <div class="collapse" id="ui-basic">
                             <ul class="nav flex-column sub-menu">
+                                <li class="nav-item"> <a class="nav-link" href="{{route('view_cid_rka')}}">RKA</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Input
+                                        Realisasi</a></li>
                                 <li class="nav-item"> <a class="nav-link"
-                                        href="pages/ui-features/buttons.html">Buttons</a>
+                                        href="../../pages/ui-features/typography.html">Typography</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#non-cid" aria-expanded="false" aria-controls="non-cid">
+                            <i class="icon-layout menu-icon"></i>
+                            <span class="menu-title">NON CID</span>
+                            <i class="menu-arrow"></i>
+                        </a>
+                        <div class="collapse" id="non-cid">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item"> <a class="nav-link" href="{{route('view_non_cid_rka')}}">RKA</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Input
+                                        Realisasi</a>
                                 </li>
                                 <li class="nav-item"> <a class="nav-link"
-                                        href="pages/ui-features/dropdowns.html">Dropdowns</a></li>
+                                        href="../../pages/ui-features/typography.html">Typography</a></li>
+                            </ul>
+                        </div>
+                    </li>
+            
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#PMUK" aria-expanded="false" aria-controls="PMUK">
+                            <i class="icon-layout menu-icon"></i>
+                            <span class="menu-title">PUMK</span>
+                            <i class="menu-arrow"></i>
+                        </a>
+                        <div class="collapse" id="PMUK">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/buttons.html">RKA</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Input
+                                        Realisasi</a>
+                                </li>
                                 <li class="nav-item"> <a class="nav-link"
-                                        href="pages/ui-features/typography.html">Typography</a>
-                                </li>
+                                        href="../../pages/ui-features/typography.html">Typography</a></li>
                             </ul>
                         </div>
                     </li>
+            
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false"
-                            aria-controls="form-elements">
-                            <i class="icon-columns menu-icon"></i>
-                            <span class="menu-title">Form elements</span>
+                        <a class="nav-link" data-toggle="collapse" href="#social-mapping" aria-expanded="false"
+                            aria-controls="social-mapping">
+                            <i class="icon-layout menu-icon"></i>
+                            <span class="menu-title">Social Mapping</span>
                             <i class="menu-arrow"></i>
                         </a>
-                        <div class="collapse" id="form-elements">
+                        <div class="collapse" id="social-mapping">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"><a class="nav-link" href="pages/forms/basic_elements.html">Basic
-                                        Elements</a>
+                                <li class="nav-item"> <a class="nav-link" href="/">RKA</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Input
+                                        Realisasi</a>
                                 </li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="../../pages/ui-features/typography.html">Typography</a></li>
                             </ul>
                         </div>
                     </li>
+            
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#charts" aria-expanded="false"
-                            aria-controls="charts">
-                            <i class="icon-bar-graph menu-icon"></i>
-                            <span class="menu-title">Charts</span>
+                        <a class="nav-link" data-toggle="collapse" href="#setting" aria-expanded="false" aria-controls="setting">
+                            <i class="icon-layout menu-icon"></i>
+                            <span class="menu-title">Setting</span>
                             <i class="menu-arrow"></i>
                         </a>
-                        <div class="collapse" id="charts">
+                        <div class="collapse" id="setting">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="pages/charts/chartjs.html">ChartJs</a>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/buttons.html">RKA</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Input
+                                        Realisasi</a>
                                 </li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="../../pages/ui-features/typography.html">Typography</a></li>
                             </ul>
                         </div>
                     </li>
+                    <br>
+                    <br>
+                    <br>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#tables" aria-expanded="false"
-                            aria-controls="tables">
-                            <i class="icon-grid-2 menu-icon"></i>
-                            <span class="menu-title">Tables</span>
+                        <a class="nav-link" data-toggle="collapse" href="#my-account" aria-expanded="false"
+                            aria-controls="my-account">
+                            <i class="icon-layout menu-icon"></i>
+                            <span class="menu-title">My Account</span>
                             <i class="menu-arrow"></i>
                         </a>
-                        <div class="collapse" id="tables">
+                        <div class="collapse" id="my-account">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="pages/tables/basic-table.html">Basic
-                                        table</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/buttons.html">RKA</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Input
+                                        Realisasi</a>
+                                </li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="../../pages/ui-features/typography.html">Typography</a></li>
                             </ul>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#icons" aria-expanded="false"
-                            aria-controls="icons">
-                            <i class="icon-contract menu-icon"></i>
-                            <span class="menu-title">Icons</span>
-                            <i class="menu-arrow"></i>
+                        <a class="nav-link" href="index.html">
+                            <i class="icon-grid menu-icon"></i>
+                            <span class="menu-title">Sign Out</span>
                         </a>
-                        <div class="collapse" id="icons">
-                            <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="pages/icons/mdi.html">Mdi icons</a></li>
-                            </ul>
-                        </div>
                     </li>
+                    <br>
+                    <br>
+                    <br>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false"
-                            aria-controls="auth">
-                            <i class="icon-head menu-icon"></i>
-                            <span class="menu-title">User Pages</span>
-                            <i class="menu-arrow"></i>
-                        </a>
-                        <div class="collapse" id="auth">
-                            <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a>
-                                </li>
-                                <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#error" aria-expanded="false"
-                            aria-controls="error">
-                            <i class="icon-ban menu-icon"></i>
-                            <span class="menu-title">Error pages</span>
-                            <i class="menu-arrow"></i>
-                        </a>
-                        <div class="collapse" id="error">
-                            <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a>
-                                </li>
-                                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/documentation/documentation.html">
-                            <i class="icon-paper menu-icon"></i>
-                            <span class="menu-title">Documentation</span>
+                        <a class="nav-link" href="index.html">
+                            <i class="icon-grid menu-icon"></i>
+                            <span class="menu-title">Help</span>
                         </a>
                     </li>
-                </ul>
+            
             </nav>
-            @yield('content')
+            {{-- <div class="content-wrapper">
+                @yield('content')
+            </div> --}}
         </div>
         <script src="{{asset('vendors/js/vendor.bundle.base.js')}}"></script>
         <script src="{{ asset('js/hoverable-collapse.js') }}"></script>
@@ -162,6 +171,4 @@
         <script src="{{ asset('js/template.js') }}"></script>
         <script src="{{ asset('js/todolist.js') }}"></script>
     </body>
-
-
 </html>

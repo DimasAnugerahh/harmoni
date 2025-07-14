@@ -28678,8 +28678,8 @@ div.tagsinput span.tag a {
 }
 
 .sidebar .nav.sub-menu .nav-item .nav-link.active {
-  color: #f7f9f8;
-  background: transparent;
+  color: white;
+  background: #25695c;
 }
 
 .sidebar .nav.sub-menu .nav-item:hover {
