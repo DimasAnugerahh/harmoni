@@ -31,14 +31,14 @@
                 <ul class="nav">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">
-                            <i class="icon-grid menu-icon"></i>
+                            <i class="ti-layout-grid2 sidebar-icon" ></i>
                             <span class="menu-title">Dashboard</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false"
                             aria-controls="ui-basic">
-                            <i class="icon-layout menu-icon"></i>
+                            <i class="ti-file sidebar-icon"></i>
                             <span class="menu-title">DATA CID</span>
                             <i class="menu-arrow"></i>
                         </a>
@@ -56,7 +56,7 @@
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="collapse" href="#non-cid" aria-expanded="false"
                             aria-controls="non-cid">
-                            <i class="icon-layout menu-icon"></i>
+                            <i class="ti-user sidebar-icon"></i>
                             <span class="menu-title">NON CID</span>
                             <i class="menu-arrow"></i>
                         </a>
@@ -77,7 +77,7 @@
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="collapse" href="#PMUK" aria-expanded="false"
                             aria-controls="PMUK">
-                            <i class="icon-layout menu-icon"></i>
+                            <i class="ti-comments sidebar-icon"></i>
                             <span class="menu-title">PUMK</span>
                             <i class="menu-arrow"></i>
                         </a>
@@ -98,7 +98,7 @@
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="collapse" href="#social-mapping" aria-expanded="false"
                             aria-controls="social-mapping">
-                            <i class="icon-layout menu-icon"></i>
+                            <i class="ti-wallet sidebar-icon"></i>
                             <span class="menu-title">Social Mapping</span>
                             <i class="menu-arrow"></i>
                         </a>
@@ -118,7 +118,7 @@
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="collapse" href="#setting" aria-expanded="false"
                             aria-controls="setting">
-                            <i class="icon-layout menu-icon"></i>
+                            <i class="ti-settings sidebar-icon"></i>
                             <span class="menu-title">Setting</span>
                             <i class="menu-arrow"></i>
                         </a>
@@ -141,7 +141,7 @@
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="collapse" href="#my-account" aria-expanded="false"
                             aria-controls="my-account">
-                            <i class="icon-layout menu-icon"></i>
+                            <i class="ti-user sidebar-icon"></i>
                             <span class="menu-title">My Account</span>
                             <i class="menu-arrow"></i>
                         </a>
@@ -160,7 +160,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">
-                            <i class="icon-grid menu-icon"></i>
+                            <i class="ti-shift-right sidebar-icon"></i>
                             <span class="menu-title">Sign Out</span>
                         </a>
                     </li>
@@ -169,7 +169,7 @@
                     <br>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">
-                            <i class="icon-grid menu-icon"></i>
+                            <i class="ti-help-alt sidebar-icon"></i>
                             <span class="menu-title">Help</span>
                         </a>
                     </li>

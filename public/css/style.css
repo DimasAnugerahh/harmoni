@@ -19174,6 +19174,18 @@ a.text-dark:hover, a.text-dark:focus {
 /*-------------------------------------------------------------------*/
 /* === Core Styles === */
 /* Reset Styles */
+
+.sidebar-icon{
+  margin-right: 1rem;
+  color: black;
+}
+
+.sidebar-icon:hover{
+  margin-right: 1rem;
+  color: white;
+}
+
+
 body {
   padding: 0;
   margin: 0;

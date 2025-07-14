@@ -33,7 +33,7 @@
                                         </p>
                                         <div class="table-responsive">
                                             <table class="table table-striped">
-                                                <thead>
+                                            <thead>
                                                     <tr>
                                                         <th>
                                                             User
@@ -49,6 +49,9 @@
                                                         </th>
                                                         <th>
                                                             Deadline
+                                                        </th>
+                                                        <th>
+                                                            Aksi
                                                         </th>
                                                     </tr>
                                                 </thead>
@@ -72,6 +75,16 @@
                                                         </td>
                                                         <td>
                                                             May 15, 2015
+                                                        </td>
+                                                        <td>
+                                                            <button type="button" class="btn btn-outline-danger btn-icon-text">
+                                                                <i class="ti-trash btn-icon-prepend"></i>
+                                                                Delete
+                                                            </button>
+                                                            <button type="button" class="btn btn-outline-success btn-icon-text">
+                                                                <i class="ti-pencil-alt btn-icon-prepend"></i>
+                                                                Edit
+                                                            </button>
                                                         </td>
                                                     </tr>
                                                     <tr>
