@@ -13,9 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('sidebar');
-});
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->name('view_dashboard');
+
+Route::redirect('/', '/dashboard');
 
 Route::get('/icon', function () {
     return view('icon');

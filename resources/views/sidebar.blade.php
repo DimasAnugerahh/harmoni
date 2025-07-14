@@ -30,7 +30,7 @@
             <nav class="sidebar sidebar-offcanvas" id="sidebar">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">
+                        <a class="nav-link" href="{{route('view_dashboard')}}">
                             <i class="ti-layout-grid2 sidebar-icon" ></i>
                             <span class="menu-title">Dashboard</span>
                         </a>
