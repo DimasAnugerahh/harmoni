@@ -95,7 +95,7 @@
                         </a>
                         <div class="collapse" id="social-mapping">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="/">RKA</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="">RKA</a></li>
                                 <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Input
                                         Realisasi</a>
                                 </li>
