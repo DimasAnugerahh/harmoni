@@ -5,7 +5,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Skydash Admin</title>
+        <title>Dashboard | Harmoni</title>
 
         {{-- chart.js --}}
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -218,7 +218,7 @@
             .map-placeholder {
                 background-color: #e0e0e0;
                 /* Light grey for map */
-                height: 250px;
+                height: 400px;
                 border-radius: 15px;
                 display: flex;
                 justify-content: center;
@@ -329,51 +329,60 @@
                             <img src="https://placehold.co/200x100/4CAF50/FFFFFF?text=Banner+Image" alt="Banner Image"
                                 class="banner-image d-none d-md-block">
                         </div>
-
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                <label for="startDate">Dari Tanggal</label>
+                                <input type="date" class="form-control" id="startDate" name="start_date">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="endDate">Sampai Tanggal</label>
+                                <input type="date" class="form-control" id="endDate" name="end_date">
+                            </div>
+                        </div>
                         <!-- Data Cards Section -->
                         <div class="row data-cards mb-4">
                             <div class="col-lg-3 col-md-6 mb-3">
                                 <div class="card-custom data-card">
-                                    <p class="text-muted-small">Program Berjalan</p>
+                                    <p class="text-muted-small">Program Terealisasi</p>
                                     <h4>36</h4>
-                                    <p>Total CID</p>
+                                    <p><i>Program</i></p>
                                     <div class="progress-indicator">
-                                        <div style="width: 70%;"></div>
+                                        <div style="width: 40%;"></div>
                                     </div>
-                                    <p class="text-muted-small mt-2">Update: 12 Mei 2025</p>
+                                    <p class="text-muted-small mt-2">40% terhadap RKA</p>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 mb-3">
                                 <div class="card-custom data-card">
-                                    <p class="text-muted-small">Total CID Lama</p>
-                                    <h4>650</h4>
-                                    <p>Total CID</p>
+                                    <p class="text-muted-small">Realisasi CID</p>
+                                    <h4>65</h4>
+                                    <p><i>Milyar</i></p>
                                     <div class="progress-indicator">
-                                        <div style="width: 85%;"></div>
+                                        <div style="width: 55%;"></div>
                                     </div>
-                                    <p class="text-muted-small mt-2">Update: 12 Mei 2025</p>
+                                    <p class="text-muted-small mt-2">55% terhadap RKA</p>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 mb-3">
                                 <div class="card-custom data-card">
-                                    <p class="text-muted-small">Total CID Baru</p>
-                                    <h4>134</h4>
-                                    <p>Total CID</p>
+                                    <p class="text-muted-small">Realisasi non CID</p>
+                                    <h4>23</h4>
+                                    <p><i>Milyar</i></p>
                                     <div class="progress-indicator">
-                                        <div style="width: 60%;"></div>
+                                        <div style="width: 80%;"></div>
                                     </div>
-                                    <p class="text-muted-small mt-2">Update: 12 Mei 2025</p>
+                                    <p class="text-muted-small mt-2">80% terhadap RKA</p>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 mb-3">
                                 <div class="card-custom data-card">
-                                    <p class="text-muted-small">Total PUMK</p>
-                                    <h4>890</h4>
-                                    <p>Total PUMK</p>
+                                    <p class="text-muted-small">Total Penyaluran PUMK</p>
+                                    <h4>78</h4>
+                                    <p><i>Milyar</i></p>
                                     <div class="progress-indicator">
-                                        <div style="width: 90%;"></div>
+                                        <div style="width: 75%;"></div>
                                     </div>
-                                    <p class="text-muted-small mt-2">Update: 12 Mei 2025</p>
+                                    <p class="text-muted-small mt-2">75% terhadap RKA</p>
                                 </div>
                             </div>
                         </div>
@@ -383,8 +392,8 @@
                                 <!-- Data Charts -->
                                 <div class="card-custom">
                                     <div class="d-flex justify-content-between align-items-center mb-3">
-                                        <h5 class="section-title mb-0">Data</h5>
-                                        <span class="text-muted-small">SD JUNI 2025</span>
+                                        <h5 class="section-title mb-0">Data TJSL</h5>
+                                        <span class="text-muted-small">SD XXXX</span>
                                     </div>
                                     <div class="row">
                                         <div class="col-md-6">
@@ -408,7 +417,7 @@
 
                                 <!-- Map Section -->
                                 <div class="card-custom mt-4">
-                                    <h5 class="section-title">Map</h5>
+                                    <h5 class="section-title">Map Sosial Mapping</h5>
                                     <div class="map-placeholder">
                                         <!-- Placeholder for Map -->
                                         <iframe
@@ -554,7 +563,8 @@
                             }
                         });
 
-                        var map = L.map('map').setView([-6.200000, 106.816666], 10);
+                        //var map = L.map('map').setView([-6.200000, 106.816666], 10);
+                        var map = L.map('map').setView([-2.5489, 118.0149], 5);
                         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                         attribution: '© OpenStreetMap contributors'
                         }).addTo(map);

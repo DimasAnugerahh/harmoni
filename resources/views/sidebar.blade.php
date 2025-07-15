@@ -35,6 +35,7 @@
                             <span class="menu-title">Dashboard</span>
                         </a>
                     </li>
+                    <br>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false"
                             aria-controls="ui-basic">
@@ -45,11 +46,8 @@
                         <div class="collapse" id="ui-basic">
                             <ul class="nav flex-column sub-menu">
                                 <li class="nav-item"> <a class="nav-link" href="{{route('view_cid_rka')}}">RKA</a></li>
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="../../pages/ui-features/dropdowns.html">Input
-                                        Realisasi</a></li>
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="../../pages/ui-features/typography.html">Typography</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="{{route('view_cid_real')}}">Realisasi</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="{{route('view_cid_report')}}">Laporan</a></li>
                             </ul>
                         </div>
                     </li>
@@ -69,7 +67,7 @@
                                         Realisasi</a>
                                 </li>
                                 <li class="nav-item"> <a class="nav-link"
-                                        href="../../pages/ui-features/typography.html">Typography</a></li>
+                                        href="../../pages/ui-features/typography.html">Laporan</a></li>
                             </ul>
                         </div>
                     </li>
@@ -83,14 +81,14 @@
                         </a>
                         <div class="collapse" id="PMUK">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="../../pages/ui-features/buttons.html">RKA</a></li>
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="../../pages/ui-features/dropdowns.html">Input
-                                        Realisasi</a>
-                                </li>
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="../../pages/ui-features/typography.html">Typography</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/buttons.html">Mitra Bianaan</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Monitor Pengajuan </a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Akun</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Kas Tunai dan Bank</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Jurnal Umum</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Laporan Buku Besar</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Laporan Neraca Saldo</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Laporan Laporan Keuangan PUMK</a></li>
                             </ul>
                         </div>
                     </li>
@@ -104,17 +102,14 @@
                         </a>
                         <div class="collapse" id="social-mapping">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="{{route("view_social_mapping_rka")}}">RKA</a></li>
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="../../pages/ui-features/dropdowns.html">Input
-                                        Realisasi</a>
-                                </li>
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="../../pages/ui-features/typography.html">Typography</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/buttons.html">Wilayah</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Profil Wilayah</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Data Survey</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Laporan</a></li>
                             </ul>
                         </div>
                     </li>
-
+                    <br>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="collapse" href="#setting" aria-expanded="false"
                             aria-controls="setting">
@@ -124,53 +119,27 @@
                         </a>
                         <div class="collapse" id="setting">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="../../pages/ui-features/buttons.html">RKA</a></li>
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="../../pages/ui-features/dropdowns.html">Input
-                                        Realisasi</a>
-                                </li>
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="../../pages/ui-features/typography.html">Typography</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/buttons.html">Wilayah</a></li>
                             </ul>
                         </div>
                     </li>
-                    <br>
-                    <br>
-                    <br>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#my-account" aria-expanded="false"
-                            aria-controls="my-account">
-                            <i class="ti-user sidebar-icon"></i>
-                            <span class="menu-title">My Account</span>
-                            <i class="menu-arrow"></i>
-                        </a>
-                        <div class="collapse" id="my-account">
-                            <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="../../pages/ui-features/buttons.html">RKA</a></li>
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="../../pages/ui-features/dropdowns.html">Input
-                                        Realisasi</a>
-                                </li>
-                                <li class="nav-item"> <a class="nav-link"
-                                        href="../../pages/ui-features/typography.html">Typography</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">
-                            <i class="ti-shift-right sidebar-icon"></i>
-                            <span class="menu-title">Sign Out</span>
-                        </a>
-                    </li>
-                    <br>
-                    <br>
                     <br>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">
                             <i class="ti-help-alt sidebar-icon"></i>
                             <span class="menu-title">Help</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="icon-paper menu-icon"></i>
+                            <span class="menu-title">Dokumentasi</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('view_login') }}">
+                            <i class="ti-shift-right sidebar-icon"></i>
+                            <span class="menu-title">Sign Out</span>
                         </a>
                     </li>
 
