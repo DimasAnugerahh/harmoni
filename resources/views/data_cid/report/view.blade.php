@@ -317,7 +317,7 @@
                                         <p class="card-description">
                                             Data Rencana Kerja dan Anggaran Program CID
                                             <div>
-                                                <a href="{{ route('add_cid_rka') }}" class="btn btn-primary btn-sm"><i class="mdi mdi-plus"></i>  Tambah Data</a>
+                                                <a href="{{ route('view_create_cid_rka') }}" class="btn btn-primary btn-sm"><i class="mdi mdi-plus"></i>  Tambah Data</a>
                                             </div>
                                         </p>
                                         <div class="table-responsive">

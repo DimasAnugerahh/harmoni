@@ -23,35 +23,35 @@ Route::get('/login', function () {
     return view('login');
 })->name('view_login');
 
-Route::get('/icon', function () {
-    return view('icon');
-});
+// Route::get('/icon', function () {
+//     return view('icon');
+// });
 
-Route::get('/tables', function () {
-    return view('tables');
-});
+// Route::get('/tables', function () {
+//     return view('tables');
+// });
 
 // CID ROUTE
 // rka route
-Route::get('/cid/rka/view', function () {
+Route::get('/cid/rka', function () {
     return view('data_cid.rka.view');
 })->name('view_cid_rka');
 
-Route::get('/cid/rka/add', function () {
+Route::get('/cid/rka/create', function () {
     return view('data_cid.rka.add');
-})->name('add_cid_rka');
+})->name('view_create_cid_rka');
 
 // realisasi program
-Route::get('/cid/real/view', function () {
+Route::get('/cid/real', function () {
     return view('data_cid.real.view');
 })->name('view_cid_real');
 
-Route::get('/cid/real/add', function () {
+Route::get('/cid/real/create', function () {
     return view('data_cid.real.add');
-})->name('add_cid_real');
+})->name('view_create_cid_real');
 
 //report 
-Route::get('/cid/report/view', function () {
+Route::get('/cid/report', function () {
     return view('data_cid.report.view');
 })->name('view_cid_report');
 
@@ -66,3 +66,8 @@ Route::get('/social-mapping/rka', function () {
     return view('social_mapping.rka');
     // return view('tables');
 })->name('view_social_mapping_rka');
+
+Route::get('/mobile', function () {
+    return view('mobile.home');
+    // return view('tables');
+})->name('view_mobile_home');

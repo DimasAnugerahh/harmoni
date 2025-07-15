@@ -315,7 +315,7 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Striped Table</h4>
                                         <p class="card-description">
-                                        <a href="{{ route('add_cid_real') }}" class="btn btn-primary btn-sm"><i class="mdi mdi-plus"></i> Tambah Data </a>
+                                        <a href="{{ route('view_create_cid_real') }}" class="btn btn-primary btn-sm"><i class="mdi mdi-plus"></i> Tambah Data </a>
                                         </p>
                                         <div class="table-responsive">
                                             <table class="table table-striped">
