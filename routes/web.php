@@ -13,11 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::redirect('/', '/dashboard');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('view_dashboard');
 
-Route::redirect('/', '/dashboard');
+Route::get('/login', function () {
+    return view('login');
+})->name('view_login');
 
 Route::get('/icon', function () {
     return view('icon');
@@ -27,10 +31,32 @@ Route::get('/tables', function () {
     return view('tables');
 });
 
-Route::get('/cid/rka', function () {
-    return view('data_cid.rka');
+// CID ROUTE
+// rka route
+Route::get('/cid/rka/view', function () {
+    return view('data_cid.rka.view');
 })->name('view_cid_rka');
 
+Route::get('/cid/rka/add', function () {
+    return view('data_cid.rka.add');
+})->name('add_cid_rka');
+
+// realisasi program
+Route::get('/cid/real/view', function () {
+    return view('data_cid.real.view');
+})->name('view_cid_real');
+
+Route::get('/cid/real/add', function () {
+    return view('data_cid.real.add');
+})->name('add_cid_real');
+
+//report 
+Route::get('/cid/report/view', function () {
+    return view('data_cid.report.view');
+})->name('view_cid_report');
+
+
+// NON CID ROUTE
 Route::get('/non-cid/rka', function () {
     return view('data_non_cid.rka');
     // return view('tables');

@@ -5,7 +5,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Skydash Admin</title>
+        <title>CID-RKA | Harmoni</title>
 
         <link rel="stylesheet" href="{{asset("vendors/select2/select2.min.css")}}">
 
@@ -37,9 +37,9 @@
                             <div class="col-12 grid-margin stretch-card">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="card-title">Basic form elements</h4>
+                                        <h4 class="card-title">Tambah Data Rencana Kerja dan Anggaran Program CID</h4>
                                         <p class="card-description">
-                                            Basic form elements
+                                            Tambah Data Rencana Kerja dan Anggaran Program CID
                                         </p>
                                         <form class="forms-sample">
                                             <div class="form-group">
