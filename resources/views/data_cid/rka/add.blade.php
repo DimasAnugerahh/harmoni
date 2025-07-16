@@ -7,16 +7,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>CID-RKA | Harmoni</title>
 
-        <link rel="stylesheet" href="{{asset("vendors/select2/select2.min.css")}}">
+        <link rel="stylesheet" href="{{asset('vendors/select2/select2.min.css')}}">
 
-        <link rel="stylesheet" href="{{asset("vendors/select2-bootstrap-theme/select2-bootstrap.min.css")}}">
-
-        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        <link rel="stylesheet" href="{{asset('vendors/select2-bootstrap-theme/select2-bootstrap.min.css')}}">
 
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
- 
+
+        <link rel="stylesheet" href="{{asset('vendors/select2/select2.min.css')}}">
+        <link rel="stylesheet" href="{{asset('vendors/select2-bootstrap-theme/select2-bootstrap.min.css')}}">
+
         <!-- endinject -->
-        <link rel="shortcut icon" href="{{asset("images/favicon.png" )}}"/>
+        <link rel="shortcut icon" href="{{asset('images/favicon.png')}}" />
     </head>
 
     <body>
@@ -37,57 +38,137 @@
                             <div class="col-12 grid-margin stretch-card">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="card-title">Tambah Data Rencana Kerja dan Anggaran Program CID</h4>
+                                        <a href="{{route('view_cid_rka')}}" class="btn btn-light"><i
+                                                class="ti-angle-left mr-2"></i>Kembali</a>
+                                        <button type="submit" class="btn btn-primary mr-2"><i
+                                                class="ti-save-alt mr-2"></i>Submit</button>
+
+                                        <h4 class="card-title mt-3">Tambah Data Rencana Kerja dan Anggaran Program CID
+                                        </h4>
                                         <p class="card-description">
                                             Tambah Data Rencana Kerja dan Anggaran Program CID
                                         </p>
-                                        <form class="forms-sample">
-                                            <div class="form-group">
-                                                <label for="exampleInputName1">Name</label>
-                                                <input type="text" class="form-control" id="exampleInputName1"
-                                                    placeholder="Name">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail3">Email address</label>
-                                                <input type="email" class="form-control" id="exampleInputEmail3"
-                                                    placeholder="Email">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="exampleInputPassword4">Password</label>
-                                                <input type="password" class="form-control" id="exampleInputPassword4"
-                                                    placeholder="Password">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="exampleSelectGender">Gender</label>
-                                                <select class="form-control" id="exampleSelectGender">
-                                                    <option>Male</option>
-                                                    <option>Female</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group">
-                                                <label>File upload</label>
-                                                <input type="file" name="img[]" class="file-upload-default">
-                                                <div class="input-group col-xs-12">
-                                                    <input type="text" class="form-control file-upload-info" disabled
-                                                        placeholder="Upload Image">
-                                                    <span class="input-group-append">
-                                                        <button class="file-upload-browse btn btn-primary"
-                                                            type="button">Upload</button>
-                                                    </span>
+                                        <form class="forms-sample" name="form_cid_rka" action="" method="POST">
+                                            {{-- tahun --}}
+                                            <div class="form-group row">
+                                                <label for="tahun" class="col-form-label col-sm-3">Tahun</label>
+                                                <div class="col-sm-9">
+                                                    <select id="tahun" class="js-example-basic-single w-100">
+                                                        <option value="AL">2020</option>
+                                                        <option value="WY">2021</option>
+                                                        <option value="AM">2022</option>
+                                                        <option value="CA">2023</option>
+                                                        <option value="RU">2024</option>
+                                                    </select>
                                                 </div>
                                             </div>
-                                            <div class="form-group">
-                                                <label for="exampleInputCity1">City</label>
-                                                <input type="text" class="form-control" id="exampleInputCity1"
-                                                    placeholder="Location">
+
+
+                                            {{-- regional --}}
+                                            <div class="form-group row">
+                                                <label class="col-form-label col-sm-3">Regional</label>
+                                                <div class="col-sm-9">
+                                                    <select class="js-example-basic-single w-100">
+                                                        <option value="AL">regional 1</option>
+                                                        <option value="WY">regional 2</option>
+                                                        <option value="AM">regional 3</option>
+                                                        <option value="CA">regional 4</option>
+                                                        <option value="RU">regional 5</option>
+                                                    </select>
+                                                </div>
                                             </div>
-                                            <div class="form-group">
-                                                <label for="exampleTextarea1">Textarea</label>
-                                                <textarea class="form-control" id="exampleTextarea1"
-                                                    rows="4"></textarea>
+
+                                            {{-- pilar --}}
+                                            <div class="form-group row">
+                                                <label class="col-form-label col-sm-3">Pilar</label>
+                                                <div class="col-sm-9">
+                                                    <select class="js-example-basic-single w-100">
+                                                        <option value="AL">pilar 1</option>
+                                                        <option value="WY">pilar 2</option>
+                                                        <option value="AM">pilar 3</option>
+                                                        <option value="CA">pilar 4</option>
+                                                        <option value="RU">pilar 5</option>
+                                                    </select>
+                                                </div>
                                             </div>
-                                            <button type="submit" class="btn btn-primary mr-2">Submit</button>
-                                            <button class="btn btn-light">Cancel</button>
+
+                                            {{-- TPB --}}
+                                            <div class="form-group row">
+                                                <label for="exampleInputUsername1"
+                                                    class="col-form-label col-sm-3">TPB</label>
+                                                <div class="col-sm-9">
+                                                    <input type="text" class="form-control" id="exampleInputUsername1"
+                                                        placeholder="Username">
+                                                </div>
+                                            </div>
+
+                                            {{-- Nama Program --}}
+                                            <div class="form-group row">
+                                                <label for="exampleInputUsername1" class="col-form-label col-sm-3">Nama
+                                                    Program</label>
+                                                <div class="col-sm-9">
+                                                    <input type="text" class="form-control" id="exampleInputUsername1"
+                                                        placeholder="Username">
+                                                </div>
+                                            </div>
+
+                                            {{-- Deskripsi --}}
+                                            <div class="form-group row">
+                                                <label for="exampleTextarea1"
+                                                    class="col-form-label col-sm-3">Textarea</label>
+                                                <div class="col-sm-9">
+                                                    <textarea class="form-control" id="exampleTextarea1"
+                                                        rows="4"></textarea>
+                                                </div>
+                                            </div>
+
+                                            {{-- Tujuan Program --}}
+                                            <div class="form-group row">
+                                                <label for="exampleTextarea1"
+                                                    class="col-form-label col-sm-3">Textarea</label>
+                                                <div class="col-sm-9">
+                                                    <textarea class="form-control" id="exampleTextarea1"
+                                                        rows="4"></textarea>
+                                                </div>
+                                            </div>
+
+                                            {{-- skema --}}
+                                            <div class="form-group row">
+                                                <label class="col-form-label col-sm-3">Pilar</label>
+                                                <div class="col-sm-9">
+                                                    <select class="js-example-basic-single w-100">
+                                                        <option value="AL">Hibah</option>
+                                                        <option value="WY">Bantuan</option>
+                                                        <option value="AM">Pelatihan</option>
+                                                        <option value="CA">Pendampingan</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            {{-- timeline --}}
+                                            <div class="form-group row">
+                                                <label for="exampleInputUsername1"
+                                                    class="col-form-label col-sm-3">Timeline</label>
+                                                <div class="col-sm-9">
+                                                    <input type="date" class="form-control" id="exampleInputUsername1"
+                                                        placeholder="Timeline">
+                                                </div>
+                                            </div>
+
+                                            {{-- estimasi --}}
+                                            <div class="form-group row">
+                                                <label for="exampleInputUsername1"
+                                                    class="col-form-label col-sm-3">Estimasi</label>
+                                                <div class="col-sm-9">
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">Rp</span>
+                                                        </div>
+                                                        <input type="number" class="form-control" placeholder="Estimasi"
+                                                            aria-label="Username">
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </form>
                                     </div>
                                 </div>
@@ -99,15 +180,15 @@
             </div>
             <!-- page-body-wrapper ends -->
         </div>
-        <script src="{{asset("vendors/typeahead.js/typeahead.bundle.min.js")}}"></script>
-        
-        <script src="{{asset("vendors/select2/select2.min.js")}}"></script>
-        
-        <script src="{{asset("js/file-upload.js")}}"></script>
-        
-        <script src="{{asset("js/typeahead.js")}}"></script>
-        
-        <script src="{{asset("js/select2.js")}}"></script>
+        <script src="{{asset('vendors/typeahead.js/typeahead.bundle.min.js')}}"></script>
+
+        <script src="{{asset('vendors/select2/select2.min.js')}}"></script>
+
+        <script src="{{asset('js/file-upload.js')}}"></script>
+
+        <script src="{{asset('js/typeahead.js')}}"></script>
+
+        <script src="{{asset('js/select2.js')}}"></script>
         <!-- End custom js for this page-->
     </body>
 

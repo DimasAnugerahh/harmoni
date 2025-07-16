@@ -316,39 +316,55 @@
                                         <h4 class="card-title">Data Rencana Kerja dan Anggaran Program CID</h4>
                                         <p class="card-description">
                                             Data Rencana Kerja dan Anggaran Program CID
-                                            <div>
-                                                <a href="{{ route('view_create_cid_rka') }}" class="btn btn-primary btn-sm"><i class="mdi mdi-plus"></i> Tambah Data</a>
-                                            </div>
+                                        <div>
+                                            <a href="{{ route('view_create_cid_rka') }}"
+                                                class="btn btn-sm btn-primary btn-sm"><i class="mdi mdi-plus"></i> Tambah
+                                                Data</a>
+                                        </div>
                                         </p>
                                         <div class="table-responsive">
                                             <table class="table table-striped">
-                                                <thead>
+                                                <thead class="text-center">
                                                     <tr>
                                                         <th>
-                                                            User
+                                                            No
                                                         </th>
                                                         <th>
-                                                            First name
+                                                            Tahun
+                                                        </th>
+                                                        <th>
+                                                            Regional
+                                                        </th>
+                                                        <th>
+                                                            Nama Program
                                                         </th>
                                                         <th>
                                                             Progress
                                                         </th>
                                                         <th>
-                                                            Amount
+                                                            Status
                                                         </th>
                                                         <th>
-                                                            Deadline
+                                                            Action
                                                         </th>
                                                     </tr>
                                                 </thead>
-                                                <tbody>
+                                                <tbody class="text-center">
                                                     <tr>
                                                         <td class="py-1">
-                                                            <img src="../../images/faces/face1.jpg" alt="image" />
+                                                            {{-- <img src="../../images/faces/face1.jpg" alt="image" /> --}}
+                                                            <p>1</p>
                                                         </td>
                                                         <td>
-                                                            Herman Beck
+                                                            <p>2020</p>
                                                         </td>
+                                                        <td>
+                                                            <p>Regional 1</p>
+                                                        </td>
+                                                        <td>
+                                                            <p>Program 1</p>
+                                                        </td>
+
                                                         <td>
                                                             <div class="progress">
                                                                 <div class="progress-bar bg-success" role="progressbar"
@@ -357,18 +373,36 @@
                                                             </div>
                                                         </td>
                                                         <td>
-                                                            $ 77.99
+                                                            <label class="badge badge-danger">Pending</label>
                                                         </td>
                                                         <td>
-                                                            May 15, 2015
+                                                            <button type="button" class="btn btn-sm btn-outline-info btn-icon-text">
+                                                                <i class="ti-eye btn-icon-prepend"></i>
+                                                            </button>
+                                                            <button type="button"
+                                                                class="btn btn-sm btn-outline-danger btn-icon-text">
+                                                                <i class="ti-trash btn-icon-prepend"></i>
+                                                            </button>
+                                                            <button type="button"
+                                                                class="btn btn-sm btn-outline-success btn-icon-text">
+                                                                <i class="ti-pencil-alt btn-icon-prepend"></i>
+                                                                
+                                                            </button>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td class="py-1">
-                                                            <img src="../../images/faces/face2.jpg" alt="image" />
+                                                            {{-- <img src="../../images/faces/face2.jpg" alt="image" /> --}}
+                                                            <p>2</p>
                                                         </td>
                                                         <td>
-                                                            Messsy Adam
+                                                            <p>2020</p>
+                                                        </td>
+                                                        <td>
+                                                            <p>Regional 1</p>
+                                                        </td>
+                                                        <td>
+                                                            <p>Program 1</p>
                                                         </td>
                                                         <td>
                                                             <div class="progress">
@@ -378,18 +412,35 @@
                                                             </div>
                                                         </td>
                                                         <td>
-                                                            $245.30
+                                                            <label class="badge badge-danger">Pending</label>
                                                         </td>
                                                         <td>
-                                                            July 1, 2015
+                                                            <button type="button" class="btn btn-sm btn-outline-info btn-icon-text">
+                                                                <i class="ti-eye btn-icon-prepend"></i>
+                                                            </button>
+                                                            <button type="button"
+                                                                class="btn btn-sm btn-outline-danger btn-icon-text">
+                                                                <i class="ti-trash btn-icon-prepend"></i>
+                                                            </button>
+                                                            <button type="button"
+                                                                class="btn btn-sm btn-outline-success btn-icon-text">
+                                                                <i class="ti-pencil-alt btn-icon-prepend"></i>
+                                                            </button>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td class="py-1">
-                                                            <img src="../../images/faces/face3.jpg" alt="image" />
+                                                            {{-- <img src="../../images/faces/face3.jpg" alt="image" /> --}}
+                                                            <p>3</p>
                                                         </td>
                                                         <td>
-                                                            John Richards
+                                                            <p>2020</p>
+                                                        </td>
+                                                        <td>
+                                                            <p>Regional 1</p>
+                                                        </td>
+                                                        <td>
+                                                            <p>Program 1</p>
                                                         </td>
                                                         <td>
                                                             <div class="progress">
@@ -399,18 +450,35 @@
                                                             </div>
                                                         </td>
                                                         <td>
-                                                            $138.00
+                                                            <label class="badge badge-danger">Pending</label>
                                                         </td>
                                                         <td>
-                                                            Apr 12, 2015
+                                                            <button type="button" class="btn btn-sm btn-outline-info btn-icon-text">
+                                                                <i class="ti-eye btn-icon-prepend"></i>
+                                                            </button>
+                                                            <button type="button"
+                                                                class="btn btn-sm btn-outline-danger btn-icon-text">
+                                                                <i class="ti-trash btn-icon-prepend"></i>
+                                                            </button>
+                                                            <button type="button"
+                                                                class="btn btn-sm btn-outline-success btn-icon-text">
+                                                                <i class="ti-pencil-alt btn-icon-prepend"></i>
+                                                            </button>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td class="py-1">
-                                                            <img src="../../images/faces/face4.jpg" alt="image" />
+                                                            {{-- <img src="../../images/faces/face4.jpg" alt="image" /> --}}
+                                                            <p>4</p>
                                                         </td>
                                                         <td>
-                                                            Peter Meggik
+                                                            <p>2020</p>
+                                                        </td>
+                                                        <td>
+                                                            <p>Regional 1</p>
+                                                        </td>
+                                                        <td>
+                                                            <p>Program 1</p>
                                                         </td>
                                                         <td>
                                                             <div class="progress">
@@ -420,18 +488,36 @@
                                                             </div>
                                                         </td>
                                                         <td>
-                                                            $ 77.99
+                                                            <label class="badge badge-danger">Pending</label>
                                                         </td>
                                                         <td>
-                                                            May 15, 2015
+                                                            <button type="button" class="btn btn-sm btn-outline-info btn-icon-text">
+                                                                <i class="ti-eye btn-icon-prepend"></i>
+                                                            </button>
+                                                            <button type="button"
+                                                                class="btn btn-sm btn-outline-danger btn-icon-text">
+                                                                <i class="ti-trash btn-icon-prepend"></i>
+                                                            </button>
+                                                            <button type="button"
+                                                                class="btn btn-sm btn-outline-success btn-icon-text">
+                                                                <i class="ti-pencil-alt btn-icon-prepend"></i>
+                                                                
+                                                            </button>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td class="py-1">
-                                                            <img src="../../images/faces/face5.jpg" alt="image" />
+                                                            {{-- <img src="../../images/faces/face5.jpg" alt="image" /> --}}
+                                                            <p>5</p>
                                                         </td>
                                                         <td>
-                                                            Edward
+                                                            <p>2020</p>
+                                                        </td>
+                                                        <td>
+                                                            <p>Regional 1</p>
+                                                        </td>
+                                                        <td>
+                                                            <p>Program 1</p>
                                                         </td>
                                                         <td>
                                                             <div class="progress">
@@ -441,18 +527,36 @@
                                                             </div>
                                                         </td>
                                                         <td>
-                                                            $ 160.25
+                                                            <label class="badge badge-danger">Pending</label>
                                                         </td>
                                                         <td>
-                                                            May 03, 2015
+                                                            <button type="button" class="btn btn-sm btn-outline-info btn-icon-text">
+                                                                <i class="ti-eye btn-icon-prepend"></i>
+                                                            </button>
+                                                            <button type="button"
+                                                                class="btn btn-sm btn-outline-danger btn-icon-text">
+                                                                <i class="ti-trash btn-icon-prepend"></i>
+                                                            </button>
+                                                            <button type="button"
+                                                                class="btn btn-sm btn-outline-success btn-icon-text">
+                                                                <i class="ti-pencil-alt btn-icon-prepend"></i>
+                                                                
+                                                            </button>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td class="py-1">
-                                                            <img src="../../images/faces/face6.jpg" alt="image" />
+                                                            {{-- <img src="../../images/faces/face6.jpg" alt="image" /> --}}
+                                                            <p>6</p>
                                                         </td>
                                                         <td>
-                                                            John Doe
+                                                            <p>2020</p>
+                                                        </td>
+                                                        <td>
+                                                            <p>Regional 1</p>
+                                                        </td>
+                                                        <td>
+                                                            <p>Program 1</p>
                                                         </td>
                                                         <td>
                                                             <div class="progress">
@@ -462,18 +566,36 @@
                                                             </div>
                                                         </td>
                                                         <td>
-                                                            $ 123.21
+                                                            <label class="badge badge-warning">Sedang Diproses</label>
                                                         </td>
                                                         <td>
-                                                            April 05, 2015
+                                                            <button type="button" class="btn btn-sm btn-outline-info btn-icon-text">
+                                                                <i class="ti-eye btn-icon-prepend"></i>
+                                                            </button>
+                                                            <button type="button"
+                                                                class="btn btn-sm btn-outline-danger btn-icon-text">
+                                                                <i class="ti-trash btn-icon-prepend"></i>
+                                                            </button>
+                                                            <button type="button"
+                                                                class="btn btn-sm btn-outline-success btn-icon-text">
+                                                                <i class="ti-pencil-alt btn-icon-prepend"></i>
+                                                                
+                                                            </button>
                                                         </td>
                                                     </tr>
                                                     <tr>
                                                         <td class="py-1">
-                                                            <img src="../../images/faces/face7.jpg" alt="image" />
+                                                            {{-- <img src="../../images/faces/face7.jpg" alt="image" /> --}}
+                                                            <p>7</p>
                                                         </td>
                                                         <td>
-                                                            Henry Tom
+                                                            <p>2020</p>
+                                                        </td>
+                                                        <td>
+                                                            <p>Regional 1</p>
+                                                        </td>
+                                                        <td>
+                                                            <p>Program 1</p>
                                                         </td>
                                                         <td>
                                                             <div class="progress">
@@ -483,10 +605,19 @@
                                                             </div>
                                                         </td>
                                                         <td>
-                                                            $ 150.00
+                                                            <label class="badge badge-success">Selesai</label>
                                                         </td>
                                                         <td>
-                                                            June 16, 2015
+                                                            <button type="button" class="btn btn-sm btn-outline-info btn-icon-text">
+                                                                <i class="ti-eye btn-icon-prepend"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-sm btn-sm btn-outline-danger btn-icon-text">
+                                                                <i class="ti-trash btn-icon-prepend"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-sm btn-outline-success btn-icon-text">
+                                                                <i class="ti-pencil-alt btn-icon-prepend"></i>
+                                                                
+                                                            </button>
                                                         </td>
                                                     </tr>
                                                 </tbody>
