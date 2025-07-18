@@ -9,11 +9,9 @@
 
         <link rel="stylesheet" href="{{asset('vendors/select2/select2.min.css')}}">
 
-        <link rel="stylesheet" href="{{asset('vendors/select2-bootstrap-theme/select2-bootstrap.min.css')}}">
 
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
-        <link rel="stylesheet" href="{{asset('vendors/select2/select2.min.css')}}">
         <link rel="stylesheet" href="{{asset('vendors/select2-bootstrap-theme/select2-bootstrap.min.css')}}">
 
         <!-- endinject -->
