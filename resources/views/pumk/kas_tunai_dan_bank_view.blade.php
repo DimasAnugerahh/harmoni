@@ -204,8 +204,6 @@
                                         <td><input type="number" name="kredit[]" class="form-control" placeholder="Kredit"></td>
                                     </tr>`;
                                 $('#jurnal_body').append(newRow);
-            
-                                showResult();
                             });
                         });
         </script>
