@@ -58,9 +58,13 @@ Route::get('/cid/report', function () {
 
 // NON CID ROUTE
 Route::get('/non-cid/rka', function () {
-    return view('data_non_cid.rka');
+    return view('data_non_cid.view');
     // return view('tables');
 })->name('view_non_cid_rka');
+
+Route::get('/non-cid/rka/create', function () {
+    return view('data_non_cid.add');
+})->name('view_create_non-cid_rka');
 
 Route::get('/social-mapping/rka', function () {
     return view('social_mapping.rka');
@@ -71,3 +75,13 @@ Route::get('/mobile', function () {
     return view('mobile.home');
     // return view('tables');
 })->name('view_mobile_home');
+
+
+// PUMK
+Route::get('/pumk/akun', function () {
+    return view('pumk.akun_view');
+})->name('view_akun_pumk');
+
+Route::get('/pumk/kas-tunai-dan-bank', function () {
+    return view('pumk.kas_tunai_dan_bank_view');
+})->name('view_kas_tunai_dan_bank_view');
