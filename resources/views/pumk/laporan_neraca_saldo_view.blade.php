@@ -65,7 +65,7 @@
                                                         <div class="col-md-5 d-flex align-items-center">
                                                             <div class="form-group" style=>
                                                                 <button class="btn btn-outline-success btn-fw"
-                                                                    style="padding: 6px;">Tampilkan Jurnal</button>
+                                                                    style="padding: 6px;">Tampilkan Laporan</button>
                                                             </div>
                                                         </div>
                                                     </div>
