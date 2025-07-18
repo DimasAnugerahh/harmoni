@@ -102,9 +102,9 @@
                         </a>
                         <div class="collapse" id="social-mapping">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/buttons.html">Wilayah</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Profil Wilayah</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Data Survey</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="{{route('view_wilayah_social_mapping')}}">Wilayah</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="{{route('view_dwilayah_social_mapping')}}">Profil Wilayah</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="{{route('view_survey_social_mapping')}}">Data Survey</a></li>
                                 <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Laporan</a></li>
                             </ul>
                         </div>

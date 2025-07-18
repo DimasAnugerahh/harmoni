@@ -38,9 +38,26 @@
                                 <div class="card">
                                     <div class="card-body">
                                         <h4 class="card-title">Tambah Data Realisasi Program CID</h4>
-                                        <p class="card-description">
-                                            Tambah Data Realisasi Program CID
-                                        </p>
+
+                                        <div class="row justify-content-between">
+                                            <div class="col-md-6">
+                                                <div class="float-start d-flex">
+                                                    <p class="card-description">
+                                                        Tambah Data Realisasi Program CID
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="justify-content-end d-flex">
+                                                    <button type="button" class="btn btn-danger btn-sm">
+                                                        <i class="mdi mdi-arrow-left-bold btn-icon-prepend"></i>                                                    
+                                                        Back
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                            
+                                            
                                         <form class="forms-sample">
                                             <div class="form-group">
                                                 <label for="exampleInputName1">Name</label>

@@ -66,10 +66,23 @@ Route::get('/non-cid/rka/create', function () {
     return view('data_non_cid.add');
 })->name('view_create_non-cid_rka');
 
-Route::get('/social-mapping/rka', function () {
-    return view('social_mapping.rka');
+
+// SOCIAL MAPPING ROUTE
+Route::get('/social-mapping/wilayah', function () {
+    return view('social_mapping.wilayah');
     // return view('tables');
-})->name('view_social_mapping_rka');
+})->name('view_wilayah_social_mapping');
+
+Route::get('/social-mapping/data-wilayah', function () {
+    return view('social_mapping.data_wilayah.data_wilayah');
+    // return view('tables');
+})->name('view_dwilayah_social_mapping');
+
+Route::get('/social-mapping/survey', function () {
+    return view('social_mapping.survey.survey');
+    // return view('tables');
+})->name('view_survey_social_mapping');
+
 
 Route::get('/mobile', function () {
     return view('mobile.home');
