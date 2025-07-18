@@ -83,8 +83,8 @@
                             <ul class="nav flex-column sub-menu">
                                 <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/buttons.html">Mitra Binaan</a></li>
                                 <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Monitor Pengajuan </a></li>
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Akun</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Kas Tunai dan Bank</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="{{route('view_akun_pumk')}}">Akun</a></li>
+                                <li class="nav-item"> <a class="nav-link" href="{{route('view_kas_tunai_dan_bank_view')}}">Kas Tunai dan Bank</a></li>
                                 <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Jurnal Umum</a></li>
                                 <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Laporan Buku Besar</a></li>
                                 <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Laporan Neraca Saldo</a></li>
