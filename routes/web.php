@@ -98,3 +98,19 @@ Route::get('/pumk/akun', function () {
 Route::get('/pumk/kas-tunai-dan-bank', function () {
     return view('pumk.kas_tunai_dan_bank_view');
 })->name('view_kas_tunai_dan_bank_view');
+
+Route::get('/pumk/jurnal-umum', function () {
+    return view('pumk.jurnal_umum_view');
+})->name('view_jurnal_umum_view');
+
+Route::get('/pumk/laporan-buku-besar', function () {
+    return view('pumk.laporan_buku_besar_view');
+})->name('view_laporan_buku_besar_view');
+
+Route::get('/pumk/laporan-neraca-saldo', function () {
+    return view('pumk.laporan_neraca_saldo_view');
+})->name('view_laporan_neraca_saldo_view');
+
+Route::get('/pumk/laporan-keuangan', function () {
+    return view('pumk.laporan_keuangan_view');
+})->name('view_laporan_keuangan_view');

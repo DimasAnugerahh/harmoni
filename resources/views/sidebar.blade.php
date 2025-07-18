@@ -31,7 +31,7 @@
                 <ul class="nav">
                     <li class="nav-item">
                         <a class="nav-link" href="{{route('view_dashboard')}}">
-                            <i class="ti-layout-grid2 sidebar-icon" ></i>
+                            <i class="ti-layout-grid2 sidebar-icon"></i>
                             <span class="menu-title">Dashboard</span>
                         </a>
                     </li>
@@ -46,8 +46,10 @@
                         <div class="collapse" id="ui-basic">
                             <ul class="nav flex-column sub-menu">
                                 <li class="nav-item"> <a class="nav-link" href="{{route('view_cid_rka')}}">RKA</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="{{route('view_cid_real')}}">Realisasi</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="{{route('view_cid_report')}}">Laporan</a></li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="{{route('view_cid_real')}}">Realisasi</a></li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="{{route('view_cid_report')}}">Laporan</a></li>
                             </ul>
                         </div>
                     </li>
@@ -81,14 +83,23 @@
                         </a>
                         <div class="collapse" id="PMUK">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/buttons.html">Mitra Binaan</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/dropdowns.html">Monitor Pengajuan </a></li>
-                                <li class="nav-item"> <a class="nav-link" href="{{route('view_akun_pumk')}}">Akun</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="{{route('view_kas_tunai_dan_bank_view')}}">Kas Tunai dan Bank</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Jurnal Umum</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Laporan Buku Besar</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Laporan Neraca Saldo</a></li>
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Laporan Laporan Keuangan PUMK</a></li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="../../pages/ui-features/buttons.html">Mitra Binaan</a></li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="../../pages/ui-features/dropdowns.html">Monitor Pengajuan </a></li>
+                                <li class="nav-item"> <a class="nav-link" href="{{route('view_akun_pumk')}}">Akun</a>
+                                </li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="{{route('view_kas_tunai_dan_bank_view')}}">Kas Tunai dan Bank</a></li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="{{route('view_jurnal_umum_view')}}">Jurnal Umum</a></li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="{{route('view_laporan_buku_besar_view')}}">Laporan Buku Besar</a></li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="{{route('view_laporan_neraca_saldo_view')}}">Laporan Neraca Saldo</a></li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="{{route('view_laporan_keuangan_view')}}">Laporan Keuangan PUMK</a>
+                                </li>
                             </ul>
                         </div>
                     </li>
@@ -106,6 +117,14 @@
                                 <li class="nav-item"> <a class="nav-link" href="{{route('view_dwilayah_social_mapping')}}">Profil Wilayah</a></li>
                                 <li class="nav-item"> <a class="nav-link" href="{{route('view_survey_social_mapping')}}">Data Survey</a></li>
                                 <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Laporan</a></li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="../../pages/ui-features/buttons.html">Wilayah</a></li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="../../pages/ui-features/dropdowns.html">Profil Wilayah</a></li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="../../pages/ui-features/typography.html">Data Survey</a></li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="../../pages/ui-features/typography.html">Laporan</a></li>
                             </ul>
                         </div>
                     </li>
@@ -119,7 +138,8 @@
                         </a>
                         <div class="collapse" id="setting">
                             <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/buttons.html">Wilayah</a></li>
+                                <li class="nav-item"> <a class="nav-link"
+                                        href="../../pages/ui-features/buttons.html">Wilayah</a></li>
                             </ul>
                         </div>
                     </li>
