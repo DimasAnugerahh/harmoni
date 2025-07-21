@@ -119,11 +119,11 @@
                                                                 <tr>
                                                                     {{-- <h4 style="width: 40%;">Hasil</h4> --}}
                                                                     <td style="width: 30%;" class="text-center">
-                                                                        <input id="result_debit" type="number"
+                                                                        <input id="result_debit" readonly type="number"
                                                                             class="form-control" placeholder="Debit">
                                                                     </td>
                                                                     <td style="width: 30%;" class="text-center">
-                                                                        <input id="result_kredit" type="number"
+                                                                        <input id="result_kredit" readonly type="number"
                                                                             class="form-control" placeholder="Kredit">
                                                                     </td>
                                                                 </tr>
