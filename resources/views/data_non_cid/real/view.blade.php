@@ -28,8 +28,10 @@
                             <div class="col-lg-12 grid-margin stretch-card">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="card-title">Data Realisasi Program CID</h4>
-                                        <div class="row">
+                                        <h4 class="card-title">Data Realisasi Program TJSL NON CID</h4>
+                                        <p class="card-description">
+                                            Data Realisasi Program TJSL NON CID
+                                            <div class="row">
                                             <div class="col-md-6 mb-4 stretch-card transparent">
                                             <div class="card card-tale">
                                                 <div class="card-body">
@@ -49,10 +51,8 @@
                                             </div>
                                             </div>
                                         </div>
-                                        <p class="card-description">
-                                            Data Realisasi Program CID
                                             <div>
-                                                <a href="{{ route('create_cid_real') }}" class="btn btn-primary btn-sm"><i class="mdi mdi-plus"></i> Tambah Data </a>
+                                                <a href="{{ route('create_non_cid_real') }}" class="btn btn-primary btn-sm"><i class="mdi mdi-plus"></i> Tambah Data </a>
                                             </div>
                                         </p>
                                         <div class="table-responsive">

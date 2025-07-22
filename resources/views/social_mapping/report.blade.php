@@ -36,7 +36,7 @@
                             <div class="col-12 grid-margin stretch-card">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="card-title">Laporan TJSL Program CID</h4>
+                                        <h4 class="card-title">Laporan Survey Social Mapping</h4>
                                     </div>
                                     {{-- body card --}}
                                     <form action="">
@@ -44,7 +44,7 @@
                                             <button style="float: right" type="button"
                                                 class="btn btn-sm btn-primary mr-2"><i
                                                     class="ti-plus mr-2"></i>Cetak</button>
-                                            <b class="">Pilih Periode Waktu</b>
+                                            <b class="">Masukkan Periode Waktu</b>
                                         </div>
                                         <div class="card-body">
                                             <div class="row my-0">

@@ -42,10 +42,10 @@
                                     <div class="card-body">
                                         <h4 class="card-title">Daftar Akun</h4>
                                         <div>
-                                            <a href="{{ route('view_create_non-cid_rka') }}"
+                                            <a href="{{ route('create_non_cid_rka') }}"
                                                 class="btn btn-sm btn-primary btn-sm"><i class="mdi mdi-plus"></i>
                                                 Buka Saldo</a>
-                                            <a href="{{ route('view_create_non-cid_rka') }}"
+                                            <a href="{{ route('create_non_cid_rka') }}"
                                                 class="btn btn-sm btn-primary btn-sm"><i class="mdi mdi-plus"></i>
                                                 Buat AKun</a>
                                         </div>

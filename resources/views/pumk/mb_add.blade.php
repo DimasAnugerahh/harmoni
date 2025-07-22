@@ -9,11 +9,9 @@
 
         <link rel="stylesheet" href="{{asset('vendors/select2/select2.min.css')}}">
 
-        <link rel="stylesheet" href="{{asset('vendors/select2-bootstrap-theme/select2-bootstrap.min.css')}}">
 
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
-        <link rel="stylesheet" href="{{asset('vendors/select2/select2.min.css')}}">
         <link rel="stylesheet" href="{{asset('vendors/select2-bootstrap-theme/select2-bootstrap.min.css')}}">
 
         <!-- endinject -->
@@ -43,10 +41,10 @@
                                         <button type="submit" class="btn btn-primary mr-2"><i
                                                 class="ti-save-alt mr-2"></i>Submit</button>
 
-                                        <h4 class="card-title mt-3">Tambah Data Rencana Kerja dan Anggaran Program NON CID
+                                        <h4 class="card-title mt-3">Tambah Data Mitra Binaan
                                         </h4>
                                         <p class="card-description">
-                                            Tambah Data Rencana Kerja dan Anggaran Program NON CID
+                                            Tambah Data Mitra Binaan
                                         </p>
                                         <form class="forms-sample" name="form_cid_rka" action="" method="POST">
                                             {{-- tahun --}}
@@ -87,18 +85,32 @@
                                                         <option value="WY">pilar 2</option>
                                                         <option value="AM">pilar 3</option>
                                                         <option value="CA">pilar 4</option>
-                                                        <option value="RU">pilar 5</option>
                                                     </select>
                                                 </div>
                                             </div>
 
                                             {{-- TPB --}}
                                             <div class="form-group row">
-                                                <label for="exampleInputUsername1"
-                                                    class="col-form-label col-sm-3">TPB</label>
+                                                <label class="col-form-label col-sm-3">TPB</label>
                                                 <div class="col-sm-9">
-                                                    <input type="text" class="form-control" id="exampleInputUsername1"
-                                                        placeholder="Username">
+                                                    <select class="js-example-basic-single w-100">
+                                                        <option value="AL">TPB 1</option>
+                                                        <option value="WY">TPB 2</option>
+                                                        <option value="AM">TPB 3</option>
+                                                        <option value="CA">TPB 4</option>
+                                                        <option value="CA">TPB 5</option>
+                                                        <option value="CA">TPB 6</option>
+                                                        <option value="CA">TPB 7</option>
+                                                        <option value="CA">TPB 8</option>
+                                                        <option value="CA">TPB 9</option>
+                                                        <option value="CA">TPB 10</option>
+                                                        <option value="CA">TPB 11</option>
+                                                        <option value="CA">TPB 12</option>
+                                                        <option value="CA">TPB 13</option>
+                                                        <option value="CA">TPB 14</option>
+                                                        <option value="CA">TPB 15</option>
+                                                        <option value="CA">TPB 16</option>
+                                                    </select>
                                                 </div>
                                             </div>
 
@@ -115,7 +127,7 @@
                                             {{-- Deskripsi --}}
                                             <div class="form-group row">
                                                 <label for="exampleTextarea1"
-                                                    class="col-form-label col-sm-3">Textarea</label>
+                                                    class="col-form-label col-sm-3">Deskripsi Program</label>
                                                 <div class="col-sm-9">
                                                     <textarea class="form-control" id="exampleTextarea1"
                                                         rows="4"></textarea>
@@ -125,7 +137,7 @@
                                             {{-- Tujuan Program --}}
                                             <div class="form-group row">
                                                 <label for="exampleTextarea1"
-                                                    class="col-form-label col-sm-3">Textarea</label>
+                                                    class="col-form-label col-sm-3">Tujuan Program</label>
                                                 <div class="col-sm-9">
                                                     <textarea class="form-control" id="exampleTextarea1"
                                                         rows="4"></textarea>
@@ -134,7 +146,7 @@
 
                                             {{-- skema --}}
                                             <div class="form-group row">
-                                                <label class="col-form-label col-sm-3">Pilar</label>
+                                                <label class="col-form-label col-sm-3">Skema Program</label>
                                                 <div class="col-sm-9">
                                                     <select class="js-example-basic-single w-100">
                                                         <option value="AL">Hibah</option>
@@ -166,6 +178,25 @@
                                                         </div>
                                                         <input type="number" class="form-control" placeholder="Estimasi"
                                                             aria-label="Username">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-sm-3 col-form-label">CSV</label>
+                                                <div class="col-sm-4">
+                                                    <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios1" value="" checked>
+                                                        Tidak
+                                                    </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-5">
+                                                    <div class="form-check">
+                                                    <label class="form-check-label">
+                                                        <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios2" value="option2">
+                                                        Ya
+                                                    </label>
                                                     </div>
                                                 </div>
                                             </div>

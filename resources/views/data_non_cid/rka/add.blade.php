@@ -41,10 +41,10 @@
                                         <button type="submit" class="btn btn-primary mr-2"><i
                                                 class="ti-save-alt mr-2"></i>Submit</button>
 
-                                        <h4 class="card-title mt-3">Tambah Data Rencana Kerja dan Anggaran Program CID
+                                        <h4 class="card-title mt-3">Tambah Data Rencana Kerja dan Anggaran Program NON CID
                                         </h4>
                                         <p class="card-description">
-                                            Tambah Data Rencana Kerja dan Anggaran Program CID
+                                            Tambah Data Rencana Kerja dan Anggaran Program NON CID
                                         </p>
                                         <form class="forms-sample" name="form_cid_rka" action="" method="POST">
                                             {{-- tahun --}}

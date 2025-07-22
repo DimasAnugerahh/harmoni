@@ -313,11 +313,11 @@
                             <div class="col-lg-12 grid-margin stretch-card">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="card-title">Data Rencana Kerja dan Anggaran Program CID</h4>
+                                        <h4 class="card-title">Data Rencana Kerja dan Anggaran Program NON CID</h4>
                                         <p class="card-description">
-                                            Data Rencana Kerja dan Anggaran Program CID
+                                            Data Rencana Kerja dan Anggaran Program NON CID
                                         <div>
-                                            <a href="{{ route('create_cid_rka') }}"
+                                            <a href="{{ route('create_non_cid_rka') }}"
                                                 class="btn btn-sm btn-primary btn-sm"><i class="mdi mdi-plus"></i> Tambah
                                                 Data</a>
                                         </div>
