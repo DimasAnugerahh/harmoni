@@ -268,17 +268,17 @@
                 let showingMore = false;
                 
                 fiturItems.forEach((item, index) => {
-                if (index > 3) {
-                item.classList.toggle('d-none');
-                if (!item.classList.contains('d-none')) {
-                showingMore = true;
-                }
-                }
+                    if (index > 3) {
+                        item.classList.toggle('d-none');
+                        if (!item.classList.contains('d-none')) {
+                            showingMore = true;
+                        }
+                    }
                 });
                 
                 toggleBtn.innerHTML = showingMore
-                ? `<a class="text-success-sm" id="toggleMore">Lihat Semua <i class="ti-angle-down"></i></a>`
-                : `<a class="text-success-sm" id="toggleMore">Tampilkan Lebih Sedikit <i class="ti-angle-up"></i></a>`
+                ? `<a class="text-success-sm" id="toggleMore">Tampilkan Lebih Sedikit <i class="ti-angle-up"></i></a>`
+                : `<a class="text-success-sm" id="toggleMore">Lihat Semua <i class="ti-angle-down"></i></a>`
                 });
                 
                 // Inisialisasi: pastikan hanya 4 pertama yang tampil
