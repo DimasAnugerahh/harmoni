@@ -200,7 +200,7 @@
             <!-- Mitra -->
             <div class="d-flex justify-content-between align-items-center mb-2">
                 <p class="font-weight-bold mb-0">Agros bekerja sama dengan</p>
-                <a href="#" class="text-success p">Lihat semua</a>
+                <a href="#" class="text-success p">Lihat Semua</a>
             </div>
             <div class="d-flex justrify-content-around mt-2">
                 <div class="col-4 text-center">
@@ -226,7 +226,7 @@
 
         <!-- Bottom Navigation -->
         <div class="bottom-nav">
-            <a href="#"><i class="ti-home active"></i>Beranda</a>
+            <a href="#"><i class="ti-home home-navigate-active"></i>Beranda</a>
             <a href="#"><i class="ti-search"></i>Cari</a>
             <a href="#"><i class="ti-comment-alt"></i>Chat</a>
             <a href="#"><i class="ti-user"></i>Profil</a>

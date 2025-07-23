@@ -20368,6 +20368,43 @@ a.text-secondary:focus,
 	color: #57b657 !important;
 }
 
+.text-success-pumk {
+	color: #0096b1 !important;
+	/* font-weight: bold !important; */
+	 font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.home-navigate-active-sm {
+	background: #febc58 !important;
+	border-radius: 50%;
+	color: white;
+	padding: 10px;
+}
+
+.home-navigate-active-pumk {
+	background: #0096b1 !important;
+	border-radius: 50%;
+	color: white;
+	padding: 10px;
+}
+
+.home-navigate-active {
+	background: #00796b !important;
+	border-radius: 50%;
+	color: white;
+	padding: 10px;
+}
+
+.text-success-sm{
+	color: #febc58 !important;
+	/* font-weight: bold !important; */
+	 font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 a.text-success:hover,
 a.text-success:focus {
 	color: #3a863a !important;
