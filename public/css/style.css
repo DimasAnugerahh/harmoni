@@ -20371,6 +20371,14 @@ a.text-secondary:focus,
 	font-style: normal;
 }
 
+.btn-detail-pumk{
+	background-color: #0096b1 !important;
+}
+
+.btn-detail-sm{
+	background-color: #febc58 !important;
+}
+
 .text-success-pumk {
 	color: #0096b1 !important;
 	/* font-weight: bold !important; */

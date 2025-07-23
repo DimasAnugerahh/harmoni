@@ -142,7 +142,7 @@
                 <div class="card-body d-flex">
                     <div>
                         <p class="font-weight-bold mb-1">Mulai untung dengan daftar kemitraan petani</p>
-                        <a href="#" class="btn btn-sm btn-success">Lihat Detail</a>
+                        <a href="#" class="btn btn-sm btn-detail-pumk">Lihat Detail</a>
                     </div>
                     <img loading="lazy" src="https://via.placeholder.com/80" alt="Banner" class="ml-auto">
                 </div>
