@@ -20366,14 +20366,17 @@ a.text-secondary:focus,
 
 .text-success {
 	color: #57b657 !important;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 500;
+	font-style: normal;
 }
 
 .text-success-pumk {
 	color: #0096b1 !important;
 	/* font-weight: bold !important; */
-	 font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 500;
+	font-style: normal;
 }
 
 .home-navigate-active-sm {
@@ -20400,9 +20403,9 @@ a.text-secondary:focus,
 .text-success-sm{
 	color: #febc58 !important;
 	/* font-weight: bold !important; */
-	 font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 500;
+	font-style: normal;
 }
 
 a.text-success:hover,

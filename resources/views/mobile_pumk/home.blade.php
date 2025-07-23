@@ -13,7 +13,6 @@
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
         {{-- font style --}}
-        {{-- font style --}}
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
@@ -240,7 +239,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         </div>
 
         <!-- Bottom Navigation -->

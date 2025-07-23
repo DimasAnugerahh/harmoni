@@ -12,6 +12,13 @@
 
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
+        {{-- font style --}}
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+            rel="stylesheet">
+
         <!-- Bootstrap 4 -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <!-- Material Design -->
@@ -198,27 +205,60 @@
             </div>
 
             <!-- Mitra -->
-            <div class="d-flex justify-content-between align-items-center mb-2">
-                <p class="font-weight-bold mb-0">Agros bekerja sama dengan</p>
-                <a href="#" class="text-success p">Lihat Semua</a>
+            <!-- Mitra -->
+            <div class="text-center mb-3">
+                <a class="text-success" id="toggleMore">Lihat Semua <i class="ti-angle-down"></i></a>
+                <div style="height: 1px; background-color: #ccc; width: 100%; margin: 1rem 0;"></div>
             </div>
-            <div class="d-flex justrify-content-around mt-2">
-                <div class="col-4 text-center">
-                    <div class="card card-partner p-2">
-                        <img loading="lazy" src="images/samples/300x300/2.jpg" alt="Logo">
-                        <p>Aditya</p>
+
+            <div class="row text-center my-2 fitur-item">
+                <div class="col-6 col-md-3 mb-3">
+                    <div class="card card-partner p-2 h-100">
+                        <img loading="lazy" src="{{asset('images/samples/300x300/1.jpg')}}" alt="Logo"
+                            class="img-fluid">
+                        <p class="mt-2 mb-0">Artikel</p>
                     </div>
                 </div>
-                <div class="col-4 text-center">
-                    <div class="card card-partner p-2">
-                        <img loading="lazy" src="images/samples/300x300/4.jpg" alt="Logo">
-                        <p>AGROAN</p>
+                <div class="col-6 col-md-3 mb-3 fitur-item">
+                    <div class="card card-partner p-2 h-100">
+                        <img loading="lazy" src="{{asset('images/samples/300x300/2.jpg')}}" alt="Logo"
+                            class="img-fluid">
+                        <p class="mt-2 mb-0">Daftar Unit Kerja PTPN</p>
                     </div>
                 </div>
-                <div class="col-4 text-center">
-                    <div class="card card-partner p-2">
-                        <img loading="lazy" src="images/samples/300x300/5.jpg" alt="Logo">
-                        <p>Agromas</p>
+                <div class="col-6 col-md-3 mb-3 fitur-item">
+                    <div class="card card-partner p-2 h-100">
+                        <img loading="lazy" src="{{asset('images/samples/300x300/3.jpg')}}" alt="Logo"
+                            class="img-fluid">
+                        <p class="mt-2 mb-0">Pengajuan Pinjaman</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 mb-3 fitur-item">
+                    <div class="card card-partner p-2 h-100">
+                        <img loading="lazy" src="{{asset('images/samples/300x300/4.jpg')}}" alt="Logo"
+                            class="img-fluid">
+                        <p class="mt-2 mb-0">Pinjaman Saya</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 mb-3 d-none fitur-item">
+                    <div class="card card-partner p-2 h-100">
+                        <img loading="lazy" src="{{asset('images/samples/300x300/5.jpg')}}" alt="Logo"
+                            class="img-fluid">
+                        <p class="mt-2 mb-0">Pinjaman Saya</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 mb-3 d-none fitur-item">
+                    <div class="card card-partner p-2 h-100">
+                        <img loading="lazy" src="{{asset('images/samples/300x300/6.jpg')}}" alt="Logo"
+                            class="img-fluid">
+                        <p class="mt-2 mb-0">Pinjaman Saya</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 mb-3 d-none fitur-item">
+                    <div class="card card-partner p-2 h-100">
+                        <img loading="lazy" src="{{asset('images/samples/300x300/7.jpg')}}" alt="Logo"
+                            class="img-fluid">
+                        <p class="mt-2 mb-0">Pinjaman Saya</p>
                     </div>
                 </div>
             </div>
@@ -231,6 +271,33 @@
             <a href="#"><i class="ti-comment-alt"></i>Chat</a>
             <a href="#"><i class="ti-user"></i>Profil</a>
         </div>
+
+        <script>
+            document.getElementById('toggleMore').addEventListener('click', function (e) {
+                            e.preventDefault();
+                            const fiturItems = document.querySelectorAll('.fitur-item');
+                            const toggleBtn = document.getElementById('toggleMore');
+                            let showingMore = false;
+                    
+                            fiturItems.forEach((item, index) => {
+                                if (index > 3) {
+                                    item.classList.toggle('d-none');
+                                    if (!item.classList.contains('d-none')) {
+                                        showingMore = true;
+                                    }
+                                }
+                            });
+                    
+                            toggleBtn.innerHTML = showingMore
+                            ? `<a class="text-success" id="toggleMore">Tampilkan Lebih Sedikit <i class="ti-angle-up"></i></a>`
+                            : `<a class="text-success" id="toggleMore">Lihat Semua <i class="ti-angle-down"></i></a>`
+                        });
+                    
+                        // Inisialisasi: pastikan hanya 4 pertama yang tampil
+                        document.querySelectorAll('.fitur-item').forEach((item, index) => {
+                            if (index > 3) item.classList.add('d-none');
+                        });
+        </script>
 
         <!-- Scripts -->
         <!-- jQuery -->
