@@ -134,12 +134,13 @@ Route::get('/mobile', function () {
 })->name('view_mobile_home');
 
 // MOBILE PUMK
-Route::get('/mobile_pumk/', function () {
+Route::get('/mobile/pumk', function () {
     return view('mobile_pumk.home');
     // return view('tables');
 })->name('view_mobilepumk_home');
 
-Route::get('/mobile_sm/', function () {
+// MOBILE SOCIAL MAPPING
+Route::get('/mobile/social-mapping', function () {
     return view('mobile_sm.home');
     // return view('tables');
 })->name('view_mobilesm_home');
