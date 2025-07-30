@@ -90,11 +90,15 @@
             }
 
             .card-partner img {
-                max-width: 40px;
+                max-width: 50px;
                 margin-bottom: 5px;
+                border-radius: 5px;
             }
 
             .card {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 border-radius: 10%;
             }
 
@@ -168,7 +172,7 @@
                 </div>
             </div>
 
-            <!-- Fitur -->
+            <!-- ptpn group -->
             <p class="font-weight-bold mb-2">PTPN Group</p>
             <div class="text-center mb-2 slick-slider">
                 <div>
@@ -190,8 +194,7 @@
                 </div>
                 <div>
                     <div class="icon-circle mb-2">
-                        <img class="ptpn-group" loading="lazy" src="{{ asset('images/ptpn-IV.png') }}"
-                            alt="PTPN IV">
+                        <img class="ptpn-group" loading="lazy" src="{{ asset('images/ptpn-IV.png') }}" alt="PTPN IV">
                     </div>
                     <div class="label-slider">
                         <p>PTPN IV</p>
@@ -199,8 +202,7 @@
                 </div>
                 <div>
                     <div class="icon-circle mb-2">
-                        <img class="ptpn-group" loading="lazy" src="{{ asset('images/PTSGN_LOGO.png') }}"
-                            alt="PT SGN">
+                        <img class="ptpn-group" loading="lazy" src="{{ asset('images/PTSGN_LOGO.png') }}" alt="PT SGN">
                     </div>
                     <div class="label-slider">
                         <p>SGN</p>
@@ -208,7 +210,8 @@
                 </div>
             </div>
 
-            <!-- Mitra -->
+            <!-- Fitur -->
+            <p class="font-weight-bold mb-2">Fitur</p>
             <div class="text-center mb-3">
                 <a class="text-success-sm" id="toggleMore">Lihat Semua <i class="ti-angle-down"></i></a>
                 <div style="height: 1px; background-color: #ccc; width: 100%; margin: 1rem 0;"></div>
@@ -217,62 +220,50 @@
             <div class="row text-center my-2 fitur-item">
                 <div class="col-6 col-md-3 mb-3">
                     <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/samples/300x300/1.jpg')}}" alt="Logo"
+                        <img loading="lazy" src="{{asset('images/koran.png')}}" alt="Logo"
                             class="img-fluid">
                         <p class="mt-2 mb-0">Artikel</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 mb-3 fitur-item">
                     <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/samples/300x300/2.jpg')}}" alt="Logo"
+                        <img loading="lazy" src="{{asset('images/buildings.png')}}" alt="Logo"
                             class="img-fluid">
                         <p class="mt-2 mb-0">Daftar Unit Kerja PTPN</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 mb-3 fitur-item">
                     <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/samples/300x300/3.jpg')}}" alt="Logo"
+                        <img loading="lazy" src="{{asset('images/maps.png')}}" alt="Logo"
                             class="img-fluid">
-                        <p class="mt-2 mb-0">Pengajuan Pinjaman</p>
+                        <p class="mt-2 mb-0">Peta Social Mapping</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 mb-3 fitur-item">
                     <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/samples/300x300/4.jpg')}}" alt="Logo"
+                        <img loading="lazy" src="{{asset('images/survey-target.png')}}" alt="Logo"
                             class="img-fluid">
-                        <p class="mt-2 mb-0">Pinjaman Saya</p>
+                        <p class="mt-2 mb-0">Target survey</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 mb-3 d-none fitur-item">
                     <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/samples/300x300/5.jpg')}}" alt="Logo"
+                        <img loading="lazy" src="{{asset('images/survey.png')}}" alt="Logo"
                             class="img-fluid">
-                        <p class="mt-2 mb-0">Pinjaman Saya</p>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 mb-3 d-none fitur-item">
-                    <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/samples/300x300/6.jpg')}}" alt="Logo"
-                            class="img-fluid">
-                        <p class="mt-2 mb-0">Pinjaman Saya</p>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 mb-3 d-none fitur-item">
-                    <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/samples/300x300/7.jpg')}}" alt="Logo"
-                            class="img-fluid">
-                        <p class="mt-2 mb-0">Pinjaman Saya</p>
+                        <p class="mt-2 mb-0">Survey</p>
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- Bottom Navigation -->
-        <div class="bottom-nav">
+        {{-- <div class="bottom-nav">
             <a href="#"><i class="ti-home home-navigate-active-sm"></i>Beranda</a>
             <a href="#"><i class="ti-layout-grid3"></i>Fitur</a>
             <a href="#"><i class="ti-user"></i>Profil</a>
-        </div>
+        </div> --}}
+
+        @include('mobile_sm.bottom_navigation')
 
         <script>
             document.getElementById('toggleMore').addEventListener('click', function (e) {

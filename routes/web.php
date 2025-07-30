@@ -139,8 +139,18 @@ Route::get('/mobile/pumk', function () {
     // return view('tables');
 })->name('view_mobilepumk_home');
 
+Route::get('/mobile/pumk/features', function () {
+    return view('mobile_pumk.feature');
+    // return view('tables');
+})->name('view_mobilepumk_feature');
+
 // MOBILE SOCIAL MAPPING
 Route::get('/mobile/social-mapping', function () {
     return view('mobile_sm.home');
     // return view('tables');
 })->name('view_mobilesm_home');
+
+Route::get('/mobile/social-mapping/features', function () {
+    return view('mobile_sm.feature');
+    // return view('tables');
+})->name('view_mobilesm_feature');
