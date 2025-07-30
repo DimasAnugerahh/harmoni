@@ -17,7 +17,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
             href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-            rel="stylesheet">  
+            rel="stylesheet">
 
         <!-- Bootstrap 4 -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -32,12 +32,12 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
         <style>
-
-           .bebas-neue-regular {
+            .bebas-neue-regular {
                 font-family: "Bebas Neue", sans-serif;
                 font-weight: 400;
                 font-style: normal;
             }
+
             body {
                 background-color: #f8f9fa;
                 font-size: 14px;
@@ -138,6 +138,14 @@
                 display: block;
                 font-size: 20px;
             }
+
+            .ptpn-group {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                border-radius: 50%;
+                background-color: white;
+            }
         </style>
     </head>
 
@@ -165,8 +173,8 @@
             <div class="text-center mb-2 slick-slider">
                 <div>
                     <div class="icon-circle mb-2">
-                        <img loading="lazy" style="width: 100%; height: 100%; object-fit: contain; border-radius: 50%;"
-                            src="{{ asset('images/samples/300x300/1.jpg') }}" alt="PTPN III">
+                        <img class="ptpn-group" loading="lazy" src="{{ asset('images/ptpn-holding.png') }}"
+                            alt="PTPN III">
                     </div>
                     <div class="label-slider">
                         <p>PTPN III</p>
@@ -174,8 +182,7 @@
                 </div>
                 <div>
                     <div class="icon-circle mb-2">
-                        <img loading="lazy" style="width: 100%; height: 100%; object-fit: contain; border-radius: 50%;"
-                            src="{{ asset('images/samples/300x300/2.jpg') }}" alt="PTPN I">
+                        <img class="ptpn-group" loading="lazy" src="{{ asset('images/n1.png') }}" alt="PTPN I">
                     </div>
                     <div class="label-slider">
                         <p>PTPN I</p>
@@ -183,8 +190,8 @@
                 </div>
                 <div>
                     <div class="icon-circle mb-2">
-                        <img loading="lazy" style="width: 100%; height: 100%; object-fit: contain; border-radius: 50%;"
-                            src="{{ asset('images/samples/300x300/2.jpg') }}" alt="PTPN IV">
+                        <img class="ptpn-group" loading="lazy" src="{{ asset('images/ptpn-IV.png') }}"
+                            alt="PTPN IV">
                     </div>
                     <div class="label-slider">
                         <p>PTPN IV</p>
@@ -192,8 +199,8 @@
                 </div>
                 <div>
                     <div class="icon-circle mb-2">
-                        <img loading="lazy" style="width: 100%; height: 100%; object-fit: contain; border-radius: 50%;"
-                            src="{{ asset('images/samples/300x300/2.jpg') }}" alt="PT SGN">
+                        <img class="ptpn-group" loading="lazy" src="{{ asset('images/PTSGN_LOGO.png') }}"
+                            alt="PT SGN">
                     </div>
                     <div class="label-slider">
                         <p>SGN</p>
@@ -210,43 +217,50 @@
             <div class="row text-center my-2 fitur-item">
                 <div class="col-6 col-md-3 mb-3">
                     <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/samples/300x300/1.jpg')}}" alt="Logo" class="img-fluid">
+                        <img loading="lazy" src="{{asset('images/samples/300x300/1.jpg')}}" alt="Logo"
+                            class="img-fluid">
                         <p class="mt-2 mb-0">Artikel</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 mb-3 fitur-item">
                     <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/samples/300x300/2.jpg')}}" alt="Logo" class="img-fluid">
+                        <img loading="lazy" src="{{asset('images/samples/300x300/2.jpg')}}" alt="Logo"
+                            class="img-fluid">
                         <p class="mt-2 mb-0">Daftar Unit Kerja PTPN</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 mb-3 fitur-item">
                     <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/samples/300x300/3.jpg')}}" alt="Logo" class="img-fluid">
+                        <img loading="lazy" src="{{asset('images/samples/300x300/3.jpg')}}" alt="Logo"
+                            class="img-fluid">
                         <p class="mt-2 mb-0">Pengajuan Pinjaman</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 mb-3 fitur-item">
                     <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/samples/300x300/4.jpg')}}" alt="Logo" class="img-fluid">
+                        <img loading="lazy" src="{{asset('images/samples/300x300/4.jpg')}}" alt="Logo"
+                            class="img-fluid">
                         <p class="mt-2 mb-0">Pinjaman Saya</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 mb-3 d-none fitur-item">
                     <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/samples/300x300/5.jpg')}}" alt="Logo" class="img-fluid">
+                        <img loading="lazy" src="{{asset('images/samples/300x300/5.jpg')}}" alt="Logo"
+                            class="img-fluid">
                         <p class="mt-2 mb-0">Pinjaman Saya</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 mb-3 d-none fitur-item">
                     <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/samples/300x300/6.jpg')}}" alt="Logo" class="img-fluid">
+                        <img loading="lazy" src="{{asset('images/samples/300x300/6.jpg')}}" alt="Logo"
+                            class="img-fluid">
                         <p class="mt-2 mb-0">Pinjaman Saya</p>
                     </div>
                 </div>
                 <div class="col-6 col-md-3 mb-3 d-none fitur-item">
                     <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/samples/300x300/7.jpg')}}" alt="Logo" class="img-fluid">
+                        <img loading="lazy" src="{{asset('images/samples/300x300/7.jpg')}}" alt="Logo"
+                            class="img-fluid">
                         <p class="mt-2 mb-0">Pinjaman Saya</p>
                     </div>
                 </div>
