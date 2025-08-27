@@ -94,9 +94,9 @@
                                 <li class="nav-item"> <a class="nav-link"
                                         href="{{route('view_jurnal_umum_view')}}">Jurnal Umum</a></li>
                                 <li class="nav-item"> <a class="nav-link"
-                                        href="{{route('view_laporan_buku_besar_view')}}">Laporan Buku Besar</a></li>
+                                        href="{{route('view_laporan_buku_besar_view')}}">Buku Besar</a></li>
                                 <li class="nav-item"> <a class="nav-link"
-                                        href="{{route('view_laporan_neraca_saldo_view')}}">Laporan Neraca Saldo</a></li>
+                                        href="{{route('view_laporan_neraca_saldo_view')}}">Neraca Saldo</a></li>
                                 <li class="nav-item"> <a class="nav-link"
                                         href="{{route('view_laporan_keuangan_view')}}">Laporan Keuangan PUMK</a>
                                 </li>
