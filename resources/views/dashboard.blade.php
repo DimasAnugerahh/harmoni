@@ -10,6 +10,19 @@
         {{-- chart.js --}}
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+        <!-- Leaflet CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+
+        <!-- Marker Cluster CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+
+        <!-- Leaflet JS -->
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+
+        <!-- Marker Cluster JS -->
+        <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
         <style>
             body {
                 font-family: 'Inter', sans-serif;
@@ -306,6 +319,13 @@
                     margin-bottom: 10px;
                 }
             }
+
+            #map {
+                width: 100%;
+                height: 400px;
+                /* sesuai tinggi container */
+                border-radius: 15px;
+            }
         </style>
 
 
@@ -420,10 +440,11 @@
                                     <h5 class="section-title">Map Sosial Mapping</h5>
                                     <div class="map-placeholder">
                                         <!-- Placeholder for Map -->
-                                        <iframe
+                                        {{-- <iframe
                                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1219.011760876501!2d119.43412881905908!3d-5.135845009056531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbefd4ed0033803%3A0x1392ea295a39d087!2sPT%20Perkebunan%20Nusantara%20XIV!5e1!3m2!1sid!2sid!4v1752484756809!5m2!1sid!2sid"
                                             style="border:0;" allowfullscreen="" loading="lazy"
-                                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                            referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
+                                        <div id="map"></div>
                                     </div>
                                 </div>
                             </div>
@@ -514,11 +535,8 @@
                 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
                     xintegrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
                     crossorigin="anonymous"></script>
-                {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
-                    xintegrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8eOxu9+oY"
-                    crossorigin="anonymous"> --}}
                 </script>
-                <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+                <script src="{{asset('js/maps.js')}}"></script>
 
                 <script>
                     // No specific JS needed for sidebar/navbar toggles anymore
@@ -562,20 +580,7 @@
                                 maintainAspectRatio: false,
                             }
                         });
-
-                        //var map = L.map('map').setView([-6.200000, 106.816666], 10);
-                        var map = L.map('map').setView([-2.5489, 118.0149], 5);
-                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                        attribution: '© OpenStreetMap contributors'
-                        }).addTo(map);
-                        
-                        // Example marker
-                        L.marker([-5.135845, 119.4341288]).addTo(map)
-                        .bindPopup('Makassar')
-                        .openPopup();
-                        
                 </script>
-
             </div>
         </div>
     </body>
