@@ -61,16 +61,16 @@
 
                 @php
                 $mitras = [
-                ['logo' => 'images/koran.png', 'name' => 'Artikel'],
-                ['logo' => 'images/buildings.png', 'name' => 'Daftar Unit Kerja PTPN'],
-                ['logo' => 'images/loan-target.png', 'name' => 'Pengajuan Pinjaman'],
-                ['logo' => 'images/loan.png', 'name' => 'Pinjaman Saya'],
+                ['url'=>'view_mobilepumk_article','logo' => 'images/koran.png', 'name' => 'Artikel'],
+                ['url'=>'view_mobilepumk_unit_kerja','logo' => 'images/buildings.png', 'name' => 'Daftar Unit Kerja PTPN'],
+                ['url'=>'view_mobilepumk_pengajuan_pinjaman','logo' => 'images/loan-target.png', 'name' => 'Pengajuan Pinjaman'],
+                ['url'=>'view_mobilepumk_article','logo' => 'images/loan.png', 'name' => 'Pinjaman Saya'],
                 ];
                 @endphp
 
                 <div class="list-group">
                     @foreach ($mitras as $mitra)
-                    <a href="#"
+                    <a href="{{ route($mitra['url']) }}"
                         class="list-group-item list-group-item-action d-flex align-items-center justify-content-between mt-2 rounded">
                         <div class="d-flex align-items-center">
                             <img src="{{ asset($mitra['logo']) }}" alt="{{ $mitra['name'] }}" class="me-3"

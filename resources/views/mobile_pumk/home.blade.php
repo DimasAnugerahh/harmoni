@@ -206,30 +206,32 @@
 
             <div class="row text-center my-2 fitur-item">
                 <div class="col-6 col-md-3 mb-3">
-                    <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/koran.png')}}" alt="Logo"
-                            class="img-fluid">
-                        <p class="mt-2 mb-0">Artikel</p>
-                    </div>
+                    <a href="{{route('view_mobilesm_article')}}">
+                        <div class="card card-partner p-2 h-100">
+                            <img loading="lazy" src="{{asset('images/koran.png')}}" alt="Logo" class="img-fluid">
+                            <p class="mt-2 mb-0">Artikel</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 mb-3 fitur-item">
+                    <a href="{{route('view_mobilepumk_unit_kerja')}}">
+                        <div class="card card-partner p-2 h-100">
+                            <img loading="lazy" src="{{asset('images/buildings.png')}}" alt="Logo" class="img-fluid">
+                            <p class="mt-2 mb-0">Daftar Unit Kerja PTPN</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 mb-3 fitur-item">
+                    <a href="{{route('view_mobilepumk_pengajuan_pinjaman')}}">
+                        <div class="card card-partner p-2 h-100">
+                            <img loading="lazy" src="{{asset('images/loan-target.png')}}" alt="Logo" class="img-fluid">
+                            <p class="mt-2 mb-0">Pengajuan Pinjaman</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-6 col-md-3 mb-3 fitur-item">
                     <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/buildings.png')}}" alt="Logo"
-                            class="img-fluid">
-                        <p class="mt-2 mb-0">Daftar Unit Kerja PTPN</p>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 mb-3 fitur-item">
-                    <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/loan-target.png')}}" alt="Logo"
-                            class="img-fluid">
-                        <p class="mt-2 mb-0">Pengajuan Pinjaman</p>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 mb-3 fitur-item">
-                    <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/loan.png')}}" alt="Logo"
-                            class="img-fluid">
+                        <img loading="lazy" src="{{asset('images/loan.png')}}" alt="Logo" class="img-fluid">
                         <p class="mt-2 mb-0">Pinjaman Saya</p>
                     </div>
                 </div>
@@ -239,12 +241,12 @@
         <!-- Bottom Navigation -->
         {{-- <div class="bottom-nav">
             <a href="{{route('view_mobilepumk_home')}}"><i class="ti-home home-navigate-active-pumk"></i>Beranda</a>
-            <a href="{{route('view_mobilepumk_feature')}}"><i class="ti-layout-grid3"></i>Fitur</a>
-            <a href="#"><i class="ti-headphone-alt"></i>CS</a>
-            <a href="#"><i class="ti-user"></i>Profil</a>
+        <a href="{{route('view_mobilepumk_feature')}}"><i class="ti-layout-grid3"></i>Fitur</a>
+        <a href="#"><i class="ti-headphone-alt"></i>CS</a>
+        <a href="#"><i class="ti-user"></i>Profil</a>
         </div> --}}
 
-       @include('mobile_pumk.bottom_navigation')
+        @include('mobile_pumk.bottom_navigation')
 
         <script>
             document.getElementById('toggleMore').addEventListener('click', function (e) {

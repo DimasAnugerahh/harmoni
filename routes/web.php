@@ -144,6 +144,23 @@ Route::get('/mobile/pumk/features', function () {
     // return view('tables');
 })->name('view_mobilepumk_feature');
 
+Route::get('/mobile/pumk/articles', function () {
+    return view('mobile_pumk.article');
+    // return view('tables');
+})->name('view_mobilepumk_article');
+
+Route::get('/mobile/pumk/pengajuan-pinjaman', function () {
+    return view('mobile_pumk.pengajuan_pinjaman');
+    // return view('tables');
+})->name('view_mobilepumk_pengajuan_pinjaman');
+
+Route::get('/mobile/pumk/unit-kerja', function () {
+    return view('mobile_pumk.unit_kerja');
+    // return view('tables');
+})->name('view_mobilepumk_unit_kerja'); 
+
+
+
 // MOBILE SOCIAL MAPPING
 Route::get('/mobile/social-mapping', function () {
     return view('mobile_sm.home');
@@ -165,4 +182,12 @@ Route::get('/mobile/social-mapping/social-mapping-maps', function () {
     // return view('tables');
 })->name('view_mobilesm_social_mapping_map');
 
+Route::get('/mobile/social-mapping/surveys', function () {
+    return view('mobile_sm.target_survey');
+    // return view('tables');
+})->name('view_mobilesm_survey');
 
+Route::get('/mobile/social-mapping/unit-kerja', function () {
+    return view('mobile_sm.unit_kerja');
+    // return view('tables');
+})->name('view_mobilesm_unit_kerja');
