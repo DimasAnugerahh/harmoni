@@ -219,25 +219,30 @@
 
             <div class="row text-center my-2 fitur-item">
                 <div class="col-6 col-md-3 mb-3">
-                    <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/koran.png')}}" alt="Logo"
-                            class="img-fluid">
-                        <p class="mt-2 mb-0">Artikel</p>
+                        <a href="{{route('view_mobilesm_article')}}">
+                        <div class="card card-partner p-2 h-100">
+                            <img loading="lazy" src="{{asset('images/koran.png')}}" alt="Logo"
+                                class="img-fluid">
+                            <p class="mt-2 mb-0">Artikel</p>
+                        </div>
+                    </a>
                     </div>
-                </div>
                 <div class="col-6 col-md-3 mb-3 fitur-item">
-                    <div class="card card-partner p-2 h-100">
-                        <img loading="lazy" src="{{asset('images/buildings.png')}}" alt="Logo"
-                            class="img-fluid">
-                        <p class="mt-2 mb-0">Daftar Unit Kerja PTPN</p>
+                       
+                        <div class="card card-partner p-2 h-100">
+                            <img loading="lazy" src="{{asset('images/buildings.png')}}" alt="Logo"
+                                class="img-fluid">
+                            <p class="mt-2 mb-0">Daftar Unit Kerja PTPN</p>
+                        </div>
                     </div>
-                </div>
                 <div class="col-6 col-md-3 mb-3 fitur-item">
+                    <a href="{{route('view_mobilesm_social_mapping_map')}}">
                     <div class="card card-partner p-2 h-100">
                         <img loading="lazy" src="{{asset('images/maps.png')}}" alt="Logo"
                             class="img-fluid">
                         <p class="mt-2 mb-0">Peta Social Mapping</p>
                     </div>
+                    </a>
                 </div>
                 <div class="col-6 col-md-3 mb-3 fitur-item">
                     <div class="card card-partner p-2 h-100">

@@ -159,3 +159,10 @@ Route::get('/mobile/social-mapping/articles', function () {
     return view('mobile_sm.article');
     // return view('tables');
 })->name('view_mobilesm_article');
+
+Route::get('/mobile/social-mapping/social-mapping-maps', function () {
+    return view('mobile_sm.social_mapping_map');
+    // return view('tables');
+})->name('view_mobilesm_social_mapping_map');
+
+
