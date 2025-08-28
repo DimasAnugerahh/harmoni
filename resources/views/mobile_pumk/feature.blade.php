@@ -64,7 +64,7 @@
                 ['url'=>'view_mobilepumk_article','logo' => 'images/koran.png', 'name' => 'Artikel'],
                 ['url'=>'view_mobilepumk_unit_kerja','logo' => 'images/buildings.png', 'name' => 'Daftar Unit Kerja PTPN'],
                 ['url'=>'view_mobilepumk_pengajuan_pinjaman','logo' => 'images/loan-target.png', 'name' => 'Pengajuan Pinjaman'],
-                ['url'=>'view_mobilepumk_article','logo' => 'images/loan.png', 'name' => 'Pinjaman Saya'],
+                ['url'=>'view_mobilepumk_feature','logo' => 'images/loan.png', 'name' => 'Pinjaman Saya'],
                 ];
                 @endphp
 

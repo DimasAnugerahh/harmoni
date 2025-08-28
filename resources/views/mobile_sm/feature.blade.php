@@ -65,7 +65,7 @@
                 ['url'=>'view_mobilesm_unit_kerja','logo' => 'images/buildings.png', 'name' => 'Daftar Unit Kerja PTPN'],
                 ['url'=>'view_mobilesm_social_mapping_map','logo' => 'images/maps.png', 'name' => 'Peta Social Mapping'],
                 ['url'=>'view_mobilesm_survey','logo' => 'images/survey-target.png', 'name' => 'Target survey'],
-                ['url'=>'view_mobilesm_article','logo' => 'images/survey.png', 'name' => 'survey'],
+                ['url'=>'view_mobilesm_feature','logo' => 'images/survey.png', 'name' => 'survey'],
                 ];
                 @endphp
 
