@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Harmoni - Mobile Social Mapping</title>
+        <title>Harmoni - Mobile PUMK</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="{{asset('vendors/feather/feather.css')}}">
@@ -167,7 +167,7 @@
         </div>
 
         <!-- Bottom Navigation -->
-        @include('mobile_sm.bottom_navigation')
+        @include('mobile_pumk.bottom_navigation')
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
     </body>
