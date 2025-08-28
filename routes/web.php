@@ -154,3 +154,8 @@ Route::get('/mobile/social-mapping/features', function () {
     return view('mobile_sm.feature');
     // return view('tables');
 })->name('view_mobilesm_feature');
+
+Route::get('/mobile/social-mapping/articles', function () {
+    return view('mobile_sm.article');
+    // return view('tables');
+})->name('view_mobilesm_article');

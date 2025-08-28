@@ -61,23 +61,23 @@
 
                 @php
                 $mitras = [
-                ['logo' => 'images/koran.png', 'name' => 'Artikel'],
-                ['logo' => 'images/buildings.png', 'name' => 'Daftar Unit Kerja PTPN'],
-                ['logo' => 'images/maps.png', 'name' => 'Peta Social Mapping'],
-                ['logo' => 'images/survey-target.png', 'name' => 'Target survey'],
-                ['logo' => 'images/survey.png', 'name' => 'survey'],
+                ['url'=>'view_mobilesm_article','logo' => 'images/koran.png', 'name' => 'Artikel'],
+                ['url'=>'view_mobilesm_article','logo' => 'images/buildings.png', 'name' => 'Daftar Unit Kerja PTPN'],
+                ['url'=>'view_mobilesm_article','logo' => 'images/maps.png', 'name' => 'Peta Social Mapping'],
+                ['url'=>'view_mobilesm_article','logo' => 'images/survey-target.png', 'name' => 'Target survey'],
+                ['url'=>'view_mobilesm_article','logo' => 'images/survey.png', 'name' => 'survey'],
                 ];
                 @endphp
 
                 <div class="list-group">
                     @foreach ($mitras as $mitra)
-                    <a href="#"
+                    <a href="{{route($mitra['url'])}}"
                         class="list-group-item list-group-item-action d-flex align-items-center justify-content-between mt-2 rounded">
-                        <div class="d-flex align-items-center">
-                            <img src="{{ asset($mitra['logo']) }}" alt="{{ $mitra['name'] }}" class="me-3"
-                                style="height: 32px; width: 32px; object-fit: contain;">
-                            <span class="ml-3 text-dark">{{ $mitra['name'] }}</span>
-                        </div>
+                            <div class="d-flex align-items-center">
+                                <img src="{{ asset($mitra['logo']) }}" alt="{{ $mitra['name'] }}" class="me-3"
+                                    style="height: 32px; width: 32px; object-fit: contain;">
+                                <span class="ml-3 text-dark">{{ $mitra['name'] }}</span>
+                            </div>
                         <span class="text-secondary">&gt;</span>
                     </a>
                     @endforeach
