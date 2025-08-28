@@ -146,7 +146,7 @@
 
       <!-- Center: Title -->
       <div class="flex-grow-1 d-flex justify-content-center">
-        <h4 class="mb-0 fw-semibold">Daftar Artikel</h4>
+        <h4 class="mb-0 fw-semibold">Target Survey</h4>
       </div>
 
       <!-- Right: Empty (for spacing balance) -->
